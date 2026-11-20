@@ -1,0 +1,40 @@
+{
+  "checkpoint": "captures/metric-hybrid-20261115T235506Z/checkpoint.json",
+  "events": "reports/metric-500-grid/spcx-causal-ingress-events.jsonl",
+  "bbo_tape": "reports/metric-500-grid/spcx-full-reconciled.jsonl",
+  "warmup_seconds": 120,
+  "max_position_usdg": "500",
+  "edges_bps": [
+    "10",
+    "15",
+    "20",
+    "25",
+    "30"
+  ],
+  "exit_edge_bps": null,
+  "slippage_bps": "1",
+  "max_bbo_age_ms": 1000,
+  "gas_usdg": "0",
+  "usdg_per_usdt": "1",
+  "routes": [
+    {
+      "name": "ohio_translated_exec20",
+      "latency_ms": {
+        "tokyo_to_taiwan": 25,
+        "tokyo_to_ohio": 125,
+        "chain_to_taiwan": 175,
+        "chain_to_ohio_machine": 0,
+        "ohio_machine_to_chain": 20
+      }
+    }
+  ],
+  "route_assumptions": "One-way constant latency assumptions, not measurements. Recorded direct Taiwan Binance receipt is treated as Tokyo->Taiwan proxy. Local Ohio feed latency defaults to zero. Both feed timestamps are translated before reordering all events.",
+  "assume_tracked_word_id": false,
+  "binding_assumption": "Recover oracle transaction writers locally; learn delegated writer/feed bindings only from matching pushed FeedUpdated arrivals. Unknown writers cannot modify decision state until confirmed. Word ID alone is not a global feed identity.",
+  "calldata_clock": "Earliest recorded local relay receipt, mapped to recorder monotonic time",
+  "execution_delay_definition": "Ohio signal receipt plus 20 ms machine-to-chain latency; immediate execution on arrival is assumed. Additional compute, signing, or sequencing queue delay is not modeled.",
+  "initial_cash_usdg": "0",
+  "initial_position_tokens": "3.573725966692873990",
+  "initial_mark_price_usdg": "139.90",
+  "initial_inventory_assumption": "Same token balance across routes: 500 / 139.91 (Taiwan initial Binance ask), floored to 18 decimals. All routes use common initial bid mark 139.90 USDG; actual acquisition cost is unknown."
+}

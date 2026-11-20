@@ -1,0 +1,765 @@
+{
+  "duration_secs": 300,
+  "binance_connections": 3,
+  "binance_base": "wss://stream.binance.com:443/stream?streams=",
+  "feed_url": "ws://127.0.0.1:19648",
+  "logs_url": "wss://rpc-robinhood.blockmachine.io",
+  "symbols": [
+    "ETHUSDT",
+    "SPCXBUSDT",
+    "METABUSDT",
+    "TSLABUSDT",
+    "GOOGLBUSDT",
+    "NVDABUSDT",
+    "AAPLBUSDT",
+    "MUBUSDT",
+    "SPYBUSDT",
+    "QQQBUSDT",
+    "INTCBUSDT"
+  ],
+  "pools": [
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0x1E8Fc442AD3606719F7016DED6C17B56C3cA7386",
+      "curator": "Carcosa",
+      "volume_24h_usd": 9069577.76,
+      "pause_level": 0,
+      "provider": "0xCafFcc296115b2a12e190Be9735ac6aAAb23bC69",
+      "source": "0xF1463419C4ac04aA1AC7FCc7B7930E1F61844c16",
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "SPCX/USDG",
+      "pool": "0xA94E5130a57c48B0b2F266709634A45bE7ae8171",
+      "curator": "Carcosa",
+      "volume_24h_usd": 2155626.78,
+      "pause_level": 0,
+      "provider": "0x8A2414038ee7a77a3BB141f33BA2DC53e5dDFe50",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "SPCXBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "META/USDG",
+      "pool": "0x90CABdA18279BBB3D935989aF807b08B0e8CeC61",
+      "curator": "Carcosa",
+      "volume_24h_usd": 1456523.91,
+      "pause_level": 0,
+      "provider": "0x1951d35F682Aa4f916672AD4108275262935f696",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "METABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "TSLA/USDG",
+      "pool": "0x99932C7660dD58cf19f0e82e97F288d88d033480",
+      "curator": "Carcosa",
+      "volume_24h_usd": 1348888.57,
+      "pause_level": 0,
+      "provider": "0xf2f6C16170a4112d415d1761DcB279bEB28363BD",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "TSLABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0xf8eEaC87637ddDe2B8eeCDA772783015E904Cb7d",
+      "curator": null,
+      "volume_24h_usd": 1319826.37,
+      "pause_level": 0,
+      "provider": "0x38D8513696701Dfdd58Ec3EA7D5f39F4e9C196e1",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "GOOGL/USDG",
+      "pool": "0x2eB3eC0c7e94F83aF3458dE5f907a9910932A6B5",
+      "curator": "Carcosa",
+      "volume_24h_usd": 1200981.31,
+      "pause_level": 0,
+      "provider": "0x77629482F836a85760d0386a03C996854bF90a7f",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "GOOGLBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "NVDA/USDG",
+      "pool": "0xBc6426CdBCE142dfbff33303dc0923509f61eedc",
+      "curator": "Carcosa",
+      "volume_24h_usd": 664231.92,
+      "pause_level": 0,
+      "provider": "0xe5fA1a642273E8760e5D369113f0FE36EbC36180",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "NVDABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "AAPL/USDG",
+      "pool": "0x6a4fc50b14F6D390340bd0BD2fcdB1752852a099",
+      "curator": "Carcosa",
+      "volume_24h_usd": 596652.35,
+      "pause_level": 0,
+      "provider": "0x3678AECdDCB4f575fc5f1f71Ba6e6cc740837244",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "AAPLBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "NVDA/USDG",
+      "pool": "0x5e91FB119F471c545ABc24c7042773793bbA6B12",
+      "curator": null,
+      "volume_24h_usd": 546589.88,
+      "pause_level": 0,
+      "provider": "0x69a3c5044ABE03b3Ca385734a22A59139748AEc5",
+      "source": "0xc0C2d13F336B866Dc44B8470ff7cb53f92E3E226",
+      "tokens": [
+        "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "NVDABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "MU/USDG",
+      "pool": "0x4538681130D33CB1E3F7495F733CaEa3a678A299",
+      "curator": "Carcosa",
+      "volume_24h_usd": 485790.4,
+      "pause_level": 0,
+      "provider": "0xFd64f5d3686808Ac4950Db6B6db39737b9663845",
+      "source": "0xF1463419C4ac04aA1AC7FCc7B7930E1F61844c16",
+      "tokens": [
+        "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "MUBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "SPY/USDG",
+      "pool": "0x13783E80F95DC9Fc10622451a3eE755593F0E666",
+      "curator": "Carcosa",
+      "volume_24h_usd": 379290.69,
+      "pause_level": 0,
+      "provider": "0x3Bb3A209899E77050324C33C6822F7F8C80862CB",
+      "source": "0xF1463419C4ac04aA1AC7FCc7B7930E1F61844c16",
+      "tokens": [
+        "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "SPYBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0xAf2640F82A499abFCF143fEC309f1D8953b4A3aB",
+      "curator": null,
+      "volume_24h_usd": 345177.58,
+      "pause_level": 0,
+      "provider": "0x787a5b5A586Bb3ab1f6B5A049195a1cf96180A33",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "SPCX/USDG",
+      "pool": "0x27f0338d3a66b49040F302c649A24d856FD28754",
+      "curator": null,
+      "volume_24h_usd": 312443.57,
+      "pause_level": 0,
+      "provider": "0x520C0F94443BE27A0973B04A7D975B701D495C85",
+      "source": null,
+      "tokens": [
+        "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "SPCXBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0xabA904ABa5d31998c1c60a5d7eeeaAfC7EADAe13",
+      "curator": null,
+      "volume_24h_usd": 306036.78,
+      "pause_level": 0,
+      "provider": "0x2938087f67D30Cc17c27eF135678cB46448586b7",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "PONS/USDG",
+      "pool": "0x5A3571DcA43ECAFCd670e87a6EaF6DE0e2d70954",
+      "curator": null,
+      "volume_24h_usd": 277512.78,
+      "pause_level": 0,
+      "provider": "0x3C7A2CeDbA9e152f563Eb0DC53557C50926E3EeC",
+      "source": null,
+      "tokens": [
+        "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "QQQ/USDG",
+      "pool": "0x74f5f207a1038C08F9980579a50D2719bfC15774",
+      "curator": "Carcosa",
+      "volume_24h_usd": 202972.26,
+      "pause_level": 0,
+      "provider": "0x0b4186067cfCfcd957DeD140836c23fFD6a1d991",
+      "source": "0xF1463419C4ac04aA1AC7FCc7B7930E1F61844c16",
+      "tokens": [
+        "0xD5f3879160bc7c32ebb4dC785F8a4F505888de68",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "QQQBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "GOOGL/USDG",
+      "pool": "0x38761054D2739AF2AA173ef5528fd46254c97b4b",
+      "curator": null,
+      "volume_24h_usd": 156588.29,
+      "pause_level": 0,
+      "provider": "0x13532150189a23C78a5727ab8752Cb2fCAF92Fe6",
+      "source": null,
+      "tokens": [
+        "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "GOOGLBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "NET/USDG",
+      "pool": "0x9735A405CB634f5BCeE2debC0f6326B0d1749661",
+      "curator": null,
+      "volume_24h_usd": 149771.69,
+      "pause_level": 0,
+      "provider": "0x2DB70a70a23741b7B069f22c2186c72aA21ed5CB",
+      "source": null,
+      "tokens": [
+        "0xCA9c78Dd337A67F6e0077F65F5E9218719d30eDf",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        9,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "TSLA/USDG",
+      "pool": "0xd0aD6190129782C1485C58De21692940125AB2FB",
+      "curator": null,
+      "volume_24h_usd": 137496.87,
+      "pause_level": 0,
+      "provider": "0x3886A590e553aC37549D784757854Cb19e29E848",
+      "source": null,
+      "tokens": [
+        "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "TSLABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "NVDA/USDG",
+      "pool": "0x362Fe643Ce7Fc42493F5144e238a71CE62f1Bd72",
+      "curator": null,
+      "volume_24h_usd": 124494.63,
+      "pause_level": 0,
+      "provider": "0xcF26D6826AB0Ce5b8DA2CD218f706377299D9F27",
+      "source": null,
+      "tokens": [
+        "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "NVDABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0xAE117891108eE263fA57C52b89aB04945dfC0A5d",
+      "curator": null,
+      "volume_24h_usd": 77936.66,
+      "pause_level": 0,
+      "provider": "0x8BB3F8b9Bffc5a1CcE15AAcAa01Ace2268Ca5Cd0",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "ORBIO/USDG",
+      "pool": "0xB8184A2212DD95dc10A6da2Ed6383E23e161c06D",
+      "curator": null,
+      "volume_24h_usd": 69752.27,
+      "pause_level": 0,
+      "provider": "0x261EfAa4BF514c7288C4cB66cAE38FB245a75508",
+      "source": null,
+      "tokens": [
+        "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "PONS/USDG",
+      "pool": "0x0af5eb7d3BF006b0838865FB03bBDA5cB2322016",
+      "curator": null,
+      "volume_24h_usd": 69359.37,
+      "pause_level": 0,
+      "provider": "0x85A2F6A91f8044B9f6C0C458827dD982D434608a",
+      "source": null,
+      "tokens": [
+        "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "ORBIO/USDG",
+      "pool": "0xB0ADCfa307E4Af2355203497bA04EbC0C4b1E683",
+      "curator": null,
+      "volume_24h_usd": 50538.17,
+      "pause_level": 0,
+      "provider": "0xdBf7D278f170235Ad583b0a43D38a61C1C2f1aDd",
+      "source": null,
+      "tokens": [
+        "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "INTC/USDG",
+      "pool": "0x15C38890Ab7933c6cC06d28184D59b9915A2FC9b",
+      "curator": "Carcosa",
+      "volume_24h_usd": 48020.0,
+      "pause_level": 0,
+      "provider": "0x7f7c1C703Ae364a6b2045811d376784825566aB5",
+      "source": "0x0049bce28d8f04d51365CFaFE2c87B1aD46873a0",
+      "tokens": [
+        "0xc72b96e0E48ecd4DC75E1e45396e26300BC39681",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "INTCBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "TSLA/USDG",
+      "pool": "0x33997D2ac4aE74055aF92B2cA6DdA26a1E09Aa8D",
+      "curator": null,
+      "volume_24h_usd": 45915.69,
+      "pause_level": 0,
+      "provider": "0x214dd123c0b82A824Bd5DEA54520F0B59219B4E0",
+      "source": null,
+      "tokens": [
+        "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "TSLABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "META/USDG",
+      "pool": "0x1a6b8c974713dA157C7Ca35Ab80494d038F30C37",
+      "curator": null,
+      "volume_24h_usd": 38841.43,
+      "pause_level": 0,
+      "provider": "0x540e6385AA432465eb0802BF962FAD21C8008598",
+      "source": null,
+      "tokens": [
+        "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "METABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "META/USDG",
+      "pool": "0x494186718b873e0f994cfC5aE6f8825E71d723c0",
+      "curator": null,
+      "volume_24h_usd": 30918.38,
+      "pause_level": 0,
+      "provider": "0x1F0456eE88F1202ED0bbA29F202401398ff2d3F7",
+      "source": "0xC8Aa83A0d336EBcb3260edF3179e2e15BC9c6C79",
+      "tokens": [
+        "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "METABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "SPCX/USDG",
+      "pool": "0x4Bd7B9ae54D830e41585b5E22a35B02D575507F2",
+      "curator": null,
+      "volume_24h_usd": 23465.89,
+      "pause_level": 0,
+      "provider": "0xc549F3461c2BdCf7dCDf6754a75C5B730d4ed828",
+      "source": null,
+      "tokens": [
+        "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "SPCXBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "AAPL/USDG",
+      "pool": "0x3c2Dae11373059b54dCA262016832FDfaaeA0c46",
+      "curator": null,
+      "volume_24h_usd": 23286.27,
+      "pause_level": 0,
+      "provider": "0x71444eA1235556158B7455Ae245a22D4c54D76f1",
+      "source": null,
+      "tokens": [
+        "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "AAPLBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "SPCX/USDG",
+      "pool": "0x49F3171a7bFbF2cDCD9729E405508b14F3Fe0053",
+      "curator": null,
+      "volume_24h_usd": 22996.21,
+      "pause_level": 0,
+      "provider": "0xD33ce937231dF1af3cEd1262F7ccD9BCa79b51F4",
+      "source": null,
+      "tokens": [
+        "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "SPCXBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "NVDA/USDG",
+      "pool": "0x441b98D95c9D26CfD26Cbe8662789c19D83Ff4DC",
+      "curator": null,
+      "volume_24h_usd": 21285.27,
+      "pause_level": 0,
+      "provider": "0xD8dcF50136445ecBe719CfCFf039a7665aF6D7C5",
+      "source": "0x65f23caaA1b122C52893472dd7d3Bc9Cd741f9D1",
+      "tokens": [
+        "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "NVDABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0x843995d08a782ab2E8572a09DEe6072b3a82d0bE",
+      "curator": null,
+      "volume_24h_usd": 20869.17,
+      "pause_level": 0,
+      "provider": "0x84888aD73aAf708D7fD2c30057C953341feb760E",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "WETH/USDG",
+      "pool": "0x3ce0691e2ED49E8006E548bcbe45b498BF78b246",
+      "curator": null,
+      "volume_24h_usd": 17413.27,
+      "pause_level": 0,
+      "provider": "0xCD20EF088D2Ea6f6C99D5d2c7fC9343d05f399C1",
+      "source": null,
+      "tokens": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "ETHUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "GOOGL/USDG",
+      "pool": "0xe1D2e088F50EBBc2a46dB480885a1107A0EdCCA8",
+      "curator": null,
+      "volume_24h_usd": 17214.21,
+      "pause_level": 0,
+      "provider": "0x67Aa403693B9c15230c21745b3e708356C6C08c4",
+      "source": "0x8f725c7c851C6225632DCf89AE7d94456563cBaE",
+      "tokens": [
+        "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "GOOGLBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "MU/USDG",
+      "pool": "0x66Fab19818457762FeD2F9cb2EbF8eb027e4b54c",
+      "curator": null,
+      "volume_24h_usd": 17195.5,
+      "pause_level": 0,
+      "provider": "0x6b0bB101c8c25efC8b70A3f8fb4Ae470B983151D",
+      "source": "0xa62d04a914dfB03986F41A6B91E0AE879f82F6bd",
+      "tokens": [
+        "0xfF080c8ce2E5feadaCa0Da81314Ae59D232d4afD",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "MUBUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "INDEX/USDG",
+      "pool": "0x71C950Ce34E4D5e15158De7521F0cE87b6554a49",
+      "curator": null,
+      "volume_24h_usd": 13032.38,
+      "pause_level": 0,
+      "provider": "0xD23e9620EBa5b4eA9CEf3BC86d4D27f8329C82B4",
+      "source": null,
+      "tokens": [
+        "0x56910D4409F3a0C78C64DD8D0545FF0705389870",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": null
+    },
+    {
+      "chain_id": 4663,
+      "pair": "TSLA/USDG",
+      "pool": "0x9bEfc0f59b93c2AdFD2CDBb80fdD0A1a707d67aa",
+      "curator": null,
+      "volume_24h_usd": 12709.69,
+      "pause_level": 0,
+      "provider": "0x1037AA848c6A5D8656427e177Ffe3dedff60180c",
+      "source": "0x3Bccb4E080846Fe3700Ca6df110c9bEcD093E981",
+      "tokens": [
+        "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "TSLABUSDT"
+    },
+    {
+      "chain_id": 4663,
+      "pair": "META/USDG",
+      "pool": "0xc82B3Ee73B6B44C7b8Ed990C0F2C8C74832Ed2F4",
+      "curator": null,
+      "volume_24h_usd": 10679.6,
+      "pause_level": 0,
+      "provider": "0x4C5D3c82bec3B6e0E76C37e1F40dD7F49A4171Af",
+      "source": "0x77fa1cadAB3b9c78dF55746a979D01D678f3e519",
+      "tokens": [
+        "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+        "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+      ],
+      "decimals": [
+        18,
+        6
+      ],
+      "binance_symbol": "METABUSDT"
+    }
+  ],
+  "catalog_asof": "2026-11-14T12:29:16Z",
+  "capture_all_chain_logs": true
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "anchor": "0x6d29fc1",
+  "anchor_hash": "0x194459fa73798d9064e44b0605f4787516ebedfd5a062529abc5a571782e27d9",
+  "status": "attempted_call_decoder_not_execution_confirmation",
+  "routers": {
+    "0x520ed467860d840ec6ca20f1dacb9c0fa5168aa7": {
+      "profile": "520-b246-v1",
+      "code_hash": "0x6d2b4159f28da407e3f3085c1d6b8a2c164e1d117de981998da64c7afbf70a27",
+      "mapping_slot": 2,
+      "pool_indexes": {
+        "1": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+        "2": "0x69bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a",
+        "3": "0x9cc8c4f6118419a27f113723f1dea646685be55f",
+        "4": "0xd4eb21209c4d6093f80b5b84f5c45cc093ea14a3",
+        "6": "0xc61284332117c3fb23a2a56cceffd07f7af60029",
+        "10": "0xd42a491087a15e5afd51feb3606066cc152d2b09",
+        "11": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+        "12": "0xa9188730fe85be88ad499d7d52b099e800fb0334",
+        "14": "0xd057b1bc54917855bbee58ead58647f47cab35e5",
+        "15": "0xddcbba3666f578e3f09516f21ff85bfee859ab5e",
+        "16": "0x6707aeac7d0e519b083219d27bb427364363183a",
+        "17": "0x8bb3514e2204e1cdf3ac149efee7ff04d91b719f",
+        "19": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "20": "0xed50bdeea8adc232f159486192a4157281d722ff",
+        "22": "0xd60a5d14db690b7afad71f76b108071d7175597d",
+        "26": "0x62ab521f71431f78ac374cdbadc6cda3c8916b6c",
+        "27": "0x2e5a92f5013a64661a49312111be2e8abd33f56a",
+        "28": "0xba2f1ed4ceb2169d538d1e614d847e83c5a55913",
+        "29": "0xa7bb1ac63bbab0c44316e6c8c455213441689167",
+        "31": "0xc3c9f0171490ef0f4536fe493f3b0ebb5ee0cb5e",
+        "36": "0xe2b46c905e12ab8e2f864e4821a4325884c1b126",
+        "37": "0xe9713f453adb9245b19559790c96f470a18f2fdf",
+        "40": "0x654e4143e82a5824445ade0824351c2a9acd95a8",
+        "41": "0x34d0dc122cf9a8eb296fc5e0d3a233625d7d19b7",
+        "48": "0xa4bdb396a69617eb7f70e2cc1ef526f7340b1b0d",
+        "68": "0x3a6ec0aa6c702323414d449b5f60f4b742a82ded"
+      }
+    },
+    "0xc33acc93942105c57602e59e8e448c20ba718a85": {
+      "profile": "c33-e7-v1",
+      "code_hash": "0xba6ea36f9155a3aaff17e138b277cfc7e46f48cb06be0fc05ac707de8e2f360b"
+    }
+  }
+}

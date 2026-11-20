@@ -1,0 +1,2311 @@
+{
+  "headers": [
+    {
+      "tx": "0x3630929a5d3413ac686303c5c1bc8b5660d918dc792e06d41f9f868b1a4fa194",
+      "calldata": "0x444c486dabd1ffffee06da630809f749f719f769f700aa00bb",
+      "expected": {
+        "price": 1833016339,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00bb",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc236919205f1db75b59e179abdc12062fba48077269e806061ffa0ecb4e1a2b4",
+      "calldata": "0xe1a5156aabd1ffffee06da633e09f60002",
+      "expected": {
+        "price": 1839277700,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xf469c2b35f57523f7d265ab1c6d0abbb084a445a75af3fec73b09fa6f07b3963",
+      "calldata": "0xe19916eaabd1ffffee06da634109f60002",
+      "expected": {
+        "price": 1839261368,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcadc568fd5e98f5c17b75089e52295a20ca8c79f46b1fb5e4b5e4d680efb4838",
+      "calldata": "0xe2ca7e36abd1ffffee06da634309f669f6000a",
+      "expected": {
+        "price": 1838936178,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x41d5a5d6adcbbb9b9104fe52278404cfd1c39520226939b521e5a57020514930",
+      "calldata": "0xe2ebe9f6abd1ffffee06da634509f669f6000a",
+      "expected": {
+        "price": 1838684662,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x60916ed2b002971d13b626408fa253ba6753debdc7f9554025b0245574059942",
+      "calldata": "0xe1210ff6abd1ffffee06da634b09f60001",
+      "expected": {
+        "price": 1838710437,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x0488c4bee8cba5d7617b8e9bbc7738dfa59c877dc19d31cdc6db0ff112c5e8e1",
+      "calldata": "0xe11a0fc6abd1ffffee06da634e09f60002",
+      "expected": {
+        "price": 1838448249,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x5d66ac7c19e98e11c1444d51b7a3c6fef722e51930bef54083d9a72f698c4ecb",
+      "calldata": "0x4448c07eabd1ffffee06da635a09f649f619f669f600aa01a6",
+      "expected": {
+        "price": 1837731123,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "01a6",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x648eb8617f91d944d81d69300b7c502c137b860a247f05f4fd8399df5161bf87",
+      "calldata": "0xe2ad7766abd1ffffee06da636909f669f60005",
+      "expected": {
+        "price": 1838243988,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xe75c3b9aad4b854d45b1e78beac983c45b728d60719805baedf967cb032e9d3e",
+      "calldata": "0xe14360e6abd1ffffee06da636a09f60002",
+      "expected": {
+        "price": 1838188771,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd7eec33c40ab08e7c28bb209d884877166f414730bff7f5f043e01b06e3abb46",
+      "calldata": "0xe2e586deabd1ffffee06da636c09f669f6000a",
+      "expected": {
+        "price": 1837952902,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xf26c8ec2ae518adb5b92b7707ecbd678b56e4bbe4ae164358f40b6d92ca33604",
+      "calldata": "0xe248b83eabd1ffffee06da636c09f669f6000a",
+      "expected": {
+        "price": 1837863731,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd68094a11c3cc78cd7359ca5766ce71e565b536f4e176de5712809b7d61dd15b",
+      "calldata": "0xe1893a0eabd1ffffee06da638409f60001",
+      "expected": {
+        "price": 1837617840,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x54809e9646bd19c75543cbefe025cc6d569889b1934a5562905ea7ce31d882d0",
+      "calldata": "0xe26f217eabd1ffffee06da639709f669f60005",
+      "expected": {
+        "price": 1837697751,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xe38523d857db0f269db412621d377ac4fb123c3a945eb57dd4a4c2e8e5ab3e3b",
+      "calldata": "0x43fe76eeabd1ffffee06da639e09f649f669f6002a017c",
+      "expected": {
+        "price": 1837162590,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "017c",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xe70da16113ab5c4c996456d81f1b0cf73c1fa7f0be9fd3b6ed6b425781b70bb6",
+      "calldata": "0x4308cb91abd1ffffee06da639f09f649f669f6002a017c",
+      "expected": {
+        "price": 1836997937,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "017c",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x4a3c4824bb495514dcf4575838712a72371145bcf106c2951199e9676fe5e050",
+      "calldata": "0x4647e1d1abd1ffffee06da63a009f649f659f619f629f669f60aaa0174",
+      "expected": {
+        "price": 1836845507,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 5,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 2,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "0174",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xecf690d29092606fe3a1fd7bbc7f1fdf9e01abb10f9ab96413e686cc8654fb32",
+      "calldata": "0x44010421abd1ffffee06da63bc09f649f619f669f600aa0152",
+      "expected": {
+        "price": 1836297889,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "0152",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x3cf62272a024bb9ff41fe20952a1c3b65345835bd3b55984fd74897a0e44f016",
+      "calldata": "0xe3d79ee1abd1ffffee06da63eb09f619f669f6002a",
+      "expected": {
+        "price": 1836120010,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x92ac9d42e128408e8e187ba0b24a05ae3d95a23e420b9770ab331381f0962cce",
+      "calldata": "0x45d3c819abd1ffffee06da63f609f649f619f629f669f602aa014a",
+      "expected": {
+        "price": 1836031466,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 2,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "014a",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x9ef06e1891eb96c7df79857b1e9a7c00ffdec3081ec7fdb4e28625259e1e44fe",
+      "calldata": "0x449a86d9abd1ffffee06da63f709f649f619f669f600aa014a",
+      "expected": {
+        "price": 1835855736,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "014a",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc660eb7733287fe0525be56835ba20713ab31ab063d907196075a7a74ba81c10",
+      "calldata": "0xe2c59c61abd1ffffee06da640409f669f60005",
+      "expected": {
+        "price": 1836169090,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xb66a172fb9428a80435253e04fc02d857a1c52bfe3d1952701c85669b8d8c8af",
+      "calldata": "0x4375e929abd1ffffee06da642609f649f619f6002a0118",
+      "expected": {
+        "price": 1835211151,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "0118",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x5cddae9a434dd720ca57cdd7a0e066033bfceea14ad23e7ab10121c6a46e3fe1",
+      "calldata": "0xe1f28b21abd1ffffee06da64b509f60001",
+      "expected": {
+        "price": 1836277614,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd85be70244e8f0f19bedd607c0489eb6246caaf180520f61ba122de8a1b286e8",
+      "calldata": "0xe2a9bf61abd1ffffee06da64c209f669f6000a",
+      "expected": {
+        "price": 1836151732,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcfca0dab8c32c6eb997f7938a9967a497dd662287e99be1c9225c0f6ac2c58f3",
+      "calldata": "0xe2900959abd1ffffee06da64c609f669f6000a",
+      "expected": {
+        "price": 1835867688,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x314eaf0020292e1327d614ab5fa9941edd081703a4a83e83b6a56081947e07f3",
+      "calldata": "0xe24cffb9abd1ffffee06da64d809f669f6000a",
+      "expected": {
+        "price": 1835692307,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x44c8e4a185bb41484f7a9fd72ff47cf18cb1f49c62dd171ce4c256e547769655",
+      "calldata": "0x43457d79abd1ffffee06da64d809f649f669f6002a0128",
+      "expected": {
+        "price": 1835610243,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "0128",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x93050efba925b4f0270961712e9737cf973567be667f315fe856be1970e1bcd6",
+      "calldata": "0xe198c9f1abd1ffffee06da64e509f60001",
+      "expected": {
+        "price": 1836588344,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd99bd0166735067703f2879bf54bfdccebc4d88a4e8d0242b4638b8a62d0a2df",
+      "calldata": "0xe17c8e19abd1ffffee06da659009f60001",
+      "expected": {
+        "price": 1836056351,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x7d91f1cecc9c44778f734030aee6c06e008df5066af463d010a780a1ab00c614",
+      "calldata": "0xe2d4f561abd1ffffee06da659009f669f60005",
+      "expected": {
+        "price": 1836130570,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x0d941c2e4f548f940b986a5c96ebffd0707fbdcb5bc1c7d9d55bea51c1ce1a72",
+      "calldata": "0xe2bf4121abd1ffffee06da659109f669f60005",
+      "expected": {
+        "price": 1836256476,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xb908b1f45792034e4909c0dbd8a89fa2dcbe354bc861c132c58b1ce83ce3c4e2",
+      "calldata": "0xe25aa059abd1ffffee06da65e109f669f60005",
+      "expected": {
+        "price": 1835895675,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x28ac5a64f3be42c512451961623fbf74bffe1b6249e0f6d80f9c18db4b32562d",
+      "calldata": "0xe2210c99abd1ffffee06da65e109f669f60005",
+      "expected": {
+        "price": 1835974309,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x59cae684402992079739a11ef875eed182cef440614f3e07f8fa33a7756ce349",
+      "calldata": "0xe14543a1abd1ffffee06da65f009f60001",
+      "expected": {
+        "price": 1836207235,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xe6db1e16010e75f8c231fbea51254bf9f2bfdba4ca51ff8e023311cbb34a94ed",
+      "calldata": "0x430efff1abd1ffffee06da65f509f649f669f600150107",
+      "expected": {
+        "price": 1836609873,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "0107",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcc8e9bd09bfc380461ec61a7e84b77fbb165f333bdb4211422f25ee610cef353",
+      "calldata": "0x43b95f09abd1ffffee06da661809f649f669f6002a010f",
+      "expected": {
+        "price": 1835496636,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "010f",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xdd310b716fdb651da1b7521061f0a280cf9388307d7d7fe4a1df6ca7537e4a55",
+      "calldata": "0xe2ce2699abd1ffffee06da666e09f669f60005",
+      "expected": {
+        "price": 1835985490,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x864a8d194130870c66ddb9c5a9503d8ce9bf4ab080cdef3092d6e267d5b4a4bb",
+      "calldata": "0xe208ba61abd1ffffee06da666e09f669f60005",
+      "expected": {
+        "price": 1836176177,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc65a2beb869034b5faa9762fb366f458c72cea4031b97ade5c188d500e187558",
+      "calldata": "0xe25306a1abd1ffffee06da66fe09f669f60005",
+      "expected": {
+        "price": 1836248811,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x0a9da93a8c5524eb7798185662dcbe2dbe7cf8778aabbdfd3f08eec69b127d0f",
+      "calldata": "0xe2c79b75abd1ffffee06da68cc09f669f6000a",
+      "expected": {
+        "price": 1834571714,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x9bbc5f1b8e3009a2bc44ce7260b29c9e6ac65cd37fabf542714e591ab16493de",
+      "calldata": "0xe23b4645abd1ffffee06da68d519f669f6000a",
+      "expected": {
+        "price": 1834347773,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc730c6caa0b1dcadd53834e3e486db81ff6712e06129bdf06f53d7fa05f3a2f3",
+      "calldata": "0xe16ac185abd1ffffee06da691b09f60002",
+      "expected": {
+        "price": 1834356087,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc4f8535a85464a7b15ceb096cb893978c94e6480f550cb9a3bedbf7f0265222b",
+      "calldata": "0xe1fe1425abd1ffffee06da691c09f60002",
+      "expected": {
+        "price": 1834198622,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xc700c97919b33c53fbcecfd7815a7a29702ac93bbf1cbce9c5d15293e2f662e6",
+      "calldata": "0xe138cfa5abd1ffffee06da691c09f60002",
+      "expected": {
+        "price": 1834122557,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x3c77ee28d3932b7bebf40cdfdf13b1c03b2a6b5731d47984af8b40abb63fabfd",
+      "calldata": "0x42a1d6e5abd1ffffee06da691f09f649f6000a00a2",
+      "expected": {
+        "price": 1834018212,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "00a2",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x604b63479fbe8f75e42f6d229c0231592efd80752140d263cd40afb56addde05",
+      "calldata": "0x42d7d21dabd1ffffee06da692309f649f6000a00a2",
+      "expected": {
+        "price": 1833944522,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "00a2",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xacbf81f730b39896aa4d2ac75c579a51c63f3538298a8e796eff551f9a6ed415",
+      "calldata": "0x437d5e5dabd1ffffee06da692309f649f669f6002a00a2",
+      "expected": {
+        "price": 1833825439,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "00a2",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x731f30d809e319416cbf81bdfe23c451c3b50b3bc3ca48b975737badb8d766ce",
+      "calldata": "0xe1514615abd1ffffee06da6ac109f70001",
+      "expected": {
+        "price": 1835003051,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xb6a87beac75e906b8a70b00949dad20d11cd6ef7b302d215ea17700683397033",
+      "calldata": "0xe1746f95abd1ffffee06da6ae109f60002",
+      "expected": {
+        "price": 1834907663,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd0d320eebec4ff5b9bd5c2daee69f602ce4f57dd34cc7f2369ae027c6572a15c",
+      "calldata": "0xe13a2d55abd1ffffee06da6ae309f60002",
+      "expected": {
+        "price": 1834826365,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x0daec553a4ab8a2c2ce98307bd68b9f532aa4802b23dd193167383de8d6c2248",
+      "calldata": "0xe1054475abd1ffffee06da6ae909f60002",
+      "expected": {
+        "price": 1834593409,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xca46c717b444ce54d0e99f3757b0e2da5431a08d1d5832ab6cb66a8788440ec9",
+      "calldata": "0xe2bfe795abd1ffffee06da6b1a09f669f60005",
+      "expected": {
+        "price": 1834904028,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xd81ee0f5cac2dc2c7e2a823b5475dbb11d9f207b2b156e4f1935b9d769b7722d",
+      "calldata": "0x42146fe9abd1ffffee06da6b2009f649f60005009a",
+      "expected": {
+        "price": 1835038729,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "009a",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x2235ca6f97d0f5339ecc14b197d78bd82103aef244cc7f42ee20f0d91244b295",
+      "calldata": "0x43438869abd1ffffee06da6b2009f649f669f60015009a",
+      "expected": {
+        "price": 1835114467,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "009a",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x88cb9cfa8d142df16d5a9d06eb4ed9bf619cfbff1f8db2ffc5dbb2a1ae193901",
+      "calldata": "0x43a1eaa9abd1ffffee06da6b2009f649f669f60015009a",
+      "expected": {
+        "price": 1835194788,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "009a",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x45a7e2c856014bb9ff3f6a5a9066c8ff493bf99443068b7b147bd5ca579900f2",
+      "calldata": "0xe2108bd5abd1ffffee06da6b2b09f669f6000a",
+      "expected": {
+        "price": 1834770217,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x6c91e07463c934262fa9dff4bb397c6f0d6bdd7c3ce1a6c39d70442630a1aee9",
+      "calldata": "0xe2d7e935abd1ffffee06da6b2b09f669f6000a",
+      "expected": {
+        "price": 1834686922,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x954107355e1e498302dc37a40877c8bc91000e95341ad1653974cc0572db839d",
+      "calldata": "0xe2685f35abd1ffffee06da6b5809f769f70005",
+      "expected": {
+        "price": 1834710071,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xb74317ec717065ecfc6b32660f85948902696eedfeaa289759b2188522566143",
+      "calldata": "0x43c0eec9abd1ffffee06da6b6209f649f669f6001500a2",
+      "expected": {
+        "price": 1835333922,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 1
+          }
+        ],
+        "extra": "00a2",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x096ac7f36ab18ecd4f0f4757bd8b2f51819efaecc3fe6536daef45cb937d46aa",
+      "calldata": "0xe1574841abd1ffffee06da6bb409f60002",
+      "expected": {
+        "price": 1836424395,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x5c551fa1087eaff6796e87fbc13e5061bf04ed3502b6ed4d2a6fbdc30cdda159",
+      "calldata": "0xe12dc8aeabd1ffffee06da6bca09f60002",
+      "expected": {
+        "price": 1837276565,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xa3a22ea47e4d4848766a04fe724a6ebcb1d202be12b1d065a1ba7361dfcef456",
+      "calldata": "0xe2adfc11abd1ffffee06da6bcb09f669f6000a",
+      "expected": {
+        "price": 1837085076,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x9f7aa154793d7b7939d346b0d162b8be53f09455c663358bb5bae33ed4431baa",
+      "calldata": "0xe2f7da01abd1ffffee06da6bd509f669f6000a",
+      "expected": {
+        "price": 1836570062,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xb88f07fc2327ef00ba0086c5f6311b7ca7a40558a03e082c19310e199d0a655d",
+      "calldata": "0x4404d6c1abd1ffffee06da6bd509f649f619f669f600aa010f",
+      "expected": {
+        "price": 1836377345,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "010f",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x351da21e653a471921747107893bbe8d6d9769b04f8a6d78daf4465a678ec703",
+      "calldata": "0x4306ed21abd1ffffee06da6bd509f649f669f6002a010f",
+      "expected": {
+        "price": 1836267841,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -10,
+            "side": 2
+          }
+        ],
+        "extra": "010f",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xde69527d88a7377083fa1f45287b5824c645d11ab87361dabaf7617479f8b14e",
+      "calldata": "0xe15c9e01abd1ffffee06da6bec09f70002",
+      "expected": {
+        "price": 1836578587,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xde8adcf427eaf6994c19ac05a6187a8b969517bc7c995490ea2588d86cdb70bb",
+      "calldata": "0xe3549b21abd1ffffee06da6c0409f719f769f7002a",
+      "expected": {
+        "price": 1836275467,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcd68e17d53d527a4b135c398821980c7fe7fd7e93635ecad1eda4b1aba9b95be",
+      "calldata": "0x44ce15d9abd1ffffee06da6c1e09f749f719f769f700aa00e5",
+      "expected": {
+        "price": 1835804242,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00e5",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xbc13a86c243ecaddf2004bd97157adcb6539e05952db12f9228f556bb1dfb4d5",
+      "calldata": "0xe25a1979abd1ffffee06da6c2d09f769f7000a",
+      "expected": {
+        "price": 1835603579,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x3de642bb47ba2688cd8d20806c7084cf399d66f0e8286713c7e422de589a939b",
+      "calldata": "0x44b0b1c9abd1ffffee06da6c3309f749f719f769f700aa00cc",
+      "expected": {
+        "price": 1835270956,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00cc",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x27e407be76b8170bf6a7766183eb1dc2ad3c9405f0d0480b64132f97471d7a13",
+      "calldata": "0xe1c438f9abd1ffffee06da6c4a09f70001",
+      "expected": {
+        "price": 1835569666,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x60981b4b88d6543a0c01f026ba8cc08189166246374dfbd2130a245e587c579f",
+      "calldata": "0xe1766cf9abd1ffffee06da6c8a09f70002",
+      "expected": {
+        "price": 1835579471,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xf0178e7d9775d92fe34a374a38444c7aef0aad16c15430e9079ae21f8760af0d",
+      "calldata": "0xe1368f09abd1ffffee06da6c8a09f70002",
+      "expected": {
+        "price": 1835499341,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x03793e004e52af6751df0273eef75bfb012c42f217ab84bcce3720cdea8a3309",
+      "calldata": "0x4363a0e9abd1ffffee06da6ca909f749f769f7002a00bb",
+      "expected": {
+        "price": 1835043815,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00bb",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x79dc7986641b13c962d82377db1101c1d757ce762cbfc085f4a34143f3b2145c",
+      "calldata": "0xe16945f9abd1ffffee06da6d2009f70002",
+      "expected": {
+        "price": 1835543735,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcb003910320caa06a6d79e768a75a3bf0703c016539def01c04453c92d81253c",
+      "calldata": "0xe16c80c9abd1ffffee06da6d2009f70002",
+      "expected": {
+        "price": 1835306775,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x376b0e557509bbddf5dbaf5882ffd2e54be933bb8930229617e9eb7705d27f17",
+      "calldata": "0x423cf655abd1ffffee06da6d3309f749f7000a00b3",
+      "expected": {
+        "price": 1834869021,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00b3",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x41f419d9f031a847ce5c7889b63b96af6d664f4d56a53d37efdf97bd1608eb79",
+      "calldata": "0xe1a60d89abd1ffffee06da6d4009f70002",
+      "expected": {
+        "price": 1835417156,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x3c42ffd54be923ece1a8ef08a2dfe1896821bc0cbe4b985f0fc5c9980364947c",
+      "calldata": "0xe23964c9abd1ffffee06da6d4009f769f7000a",
+      "expected": {
+        "price": 1835313341,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0x382000217cdb3f387ddd08c857917fa5b1280446ac5588cc7e39ee377947eb1f",
+      "calldata": "0xe28c8569abd1ffffee06da6d4e09f769f7000a",
+      "expected": {
+        "price": 1835085584,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xab25bf5c0ea057bf471ae02e67c2bf7f48d16d5ba8f982ad99209801a079f7da",
+      "calldata": "0x42337f35abd1ffffee06da6d5f09f749f7000a00a2",
+      "expected": {
+        "price": 1834709229,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "00a2",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xea1f4d90662e8d3185222c7a74acceff307e90a88c9850d707a07a71d58de472",
+      "calldata": "0xe1f080e9abd1ffffee06da6d6b09f70001",
+      "expected": {
+        "price": 1835044654,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 1
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xcd81ab8831c46c859dd10ec933a98f2037f0dadd1d5e1c4e51348ff353ba0a52",
+      "calldata": "0xe2a7c1b5abd1ffffee06da6da109f769f7000a",
+      "expected": {
+        "price": 1834618308,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 224,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "",
+        "state_complete": false
+      }
+    },
+    {
+      "tx": "0xac774fea474f07a3d1a2f34765864855fbde0fd30785b08158de402552f15e1b",
+      "calldata": "0x44954d85abd1ffffee06da6dba09f749f719f769f700aa0089",
+      "expected": {
+        "price": 1834368136,
+        "cap": 170139885386254598024780171091801800704,
+        "mode": 64,
+        "routes": [
+          {
+            "index": 0,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 4,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 1,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          },
+          {
+            "index": 6,
+            "flags": 9,
+            "adjustment": -9,
+            "side": 2
+          }
+        ],
+        "extra": "0089",
+        "state_complete": false
+      }
+    }
+  ],
+  "sells": [
+    {
+      "calldata": "0xe184fe25bbd1ffffee06da634b09ff0002",
+      "limit": "3266824170828078200316082",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe184fe25bbd180000a06da634b09ff0002",
+      "limit": "3266824170828078200316082",
+      "amount": "39476197114912325"
+    },
+    {
+      "calldata": "0xe184fe25bbd1ffffee06da634b09f70002",
+      "limit": "3266693493940886188059136",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe184fe25bbd180000a06da634b09f70002",
+      "limit": "3266693493940886188059136",
+      "amount": "39479355494935720"
+    },
+    {
+      "calldata": "0xe184fe25bbd1ffffee06da634b09f60002",
+      "limit": "3266677158962430874408367",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe184fe25bbd180000a06da634b09f60002",
+      "limit": "3266677158962430874408367",
+      "amount": "39479750327973973"
+    },
+    {
+      "calldata": "0xe184fe25bbd1ffffee06da634b09e10002",
+      "limit": "3266334105544147796134721",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe184fe25bbd180000a06da634b09e10002",
+      "limit": "3266334105544147796134721",
+      "amount": "39488043646471582"
+    },
+    {
+      "calldata": "0xe185f69d0bd1ffffee06da634b09ff0002",
+      "limit": "3314517557427030395816273",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe185f69d0bd180000a06da634b09ff0002",
+      "limit": "3314517557427030395816273",
+      "amount": "38348305768771973"
+    },
+    {
+      "calldata": "0xe185f69d0bd1ffffee06da634b09f70002",
+      "limit": "3314384972747139881361203",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe185f69d0bd180000a06da634b09f70002",
+      "limit": "3314384972747139881361203",
+      "amount": "38351373909366128"
+    },
+    {
+      "calldata": "0xe185f69d0bd1ffffee06da634b09f60002",
+      "limit": "3314368399289231185513478",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe185f69d0bd180000a06da634b09f60002",
+      "limit": "3314368399289231185513478",
+      "amount": "38351757461460431"
+    },
+    {
+      "calldata": "0xe185f69d0bd1ffffee06da634b09e10002",
+      "limit": "3314020337526927522989370",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe185f69d0bd180000a06da634b09e10002",
+      "limit": "3314020337526927522989370",
+      "amount": "38359813828000966"
+    },
+    {
+      "calldata": "0xe1843a7dcbd1ffffee06da634b09ff0002",
+      "limit": "3361534339238190024772448",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe1843a7dcbd180000a06da634b09ff0002",
+      "limit": "3361534339238190024772448",
+      "amount": "37283075052972751"
+    },
+    {
+      "calldata": "0xe1843a7dcbd1ffffee06da634b09f70002",
+      "limit": "3361399873830604480752639",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe1843a7dcbd180000a06da634b09f70002",
+      "limit": "3361399873830604480752639",
+      "amount": "37286057967439291"
+    },
+    {
+      "calldata": "0xe1843a7dcbd1ffffee06da634b09f60002",
+      "limit": "3361383065276443962818882",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe1843a7dcbd180000a06da634b09f60002",
+      "limit": "3361383065276443962818882",
+      "amount": "37286430865308753"
+    },
+    {
+      "calldata": "0xe1843a7dcbd1ffffee06da634b09e10002",
+      "limit": "3361030066221260867635844",
+      "amount": "1000000000000000000"
+    },
+    {
+      "calldata": "0xe1843a7dcbd180000a06da634b09e10002",
+      "limit": "3361030066221260867635844",
+      "amount": "37294263443889828"
+    }
+  ]
+}

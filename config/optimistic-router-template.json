@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "status": "template_requires_fixed_block_refresh",
+  "routers": {
+    "0x520ed467860d840ec6ca20f1dacb9c0fa5168aa7": {
+      "profile": "520-b246-v1",
+      "code_hash": "0x6d2b4159f28da407e3f3085c1d6b8a2c164e1d117de981998da64c7afbf70a27",
+      "mapping_slot": 2,
+      "pool_indexes": {
+        "1": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+        "2": "0x69bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a",
+        "3": "0x9cc8c4f6118419a27f113723f1dea646685be55f",
+        "4": "0xd4eb21209c4d6093f80b5b84f5c45cc093ea14a3",
+        "6": "0xc61284332117c3fb23a2a56cceffd07f7af60029",
+        "10": "0xd42a491087a15e5afd51feb3606066cc152d2b09",
+        "11": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+        "12": "0xa9188730fe85be88ad499d7d52b099e800fb0334",
+        "14": "0xd057b1bc54917855bbee58ead58647f47cab35e5",
+        "15": "0xddcbba3666f578e3f09516f21ff85bfee859ab5e",
+        "16": "0x6707aeac7d0e519b083219d27bb427364363183a",
+        "17": "0x8bb3514e2204e1cdf3ac149efee7ff04d91b719f",
+        "19": "0x10cc6bd38112cac182db90b6a71d8bb5939526ba",
+        "20": "0xed50bdeea8adc232f159486192a4157281d722ff",
+        "22": "0xd60a5d14db690b7afad71f76b108071d7175597d",
+        "26": "0x62ab521f71431f78ac374cdbadc6cda3c8916b6c",
+        "27": "0x2e5a92f5013a64661a49312111be2e8abd33f56a",
+        "28": "0xba2f1ed4ceb2169d538d1e614d847e83c5a55913",
+        "29": "0xa7bb1ac63bbab0c44316e6c8c455213441689167",
+        "31": "0xc3c9f0171490ef0f4536fe493f3b0ebb5ee0cb5e",
+        "36": "0xe2b46c905e12ab8e2f864e4821a4325884c1b126",
+        "37": "0xe9713f453adb9245b19559790c96f470a18f2fdf",
+        "40": "0x654e4143e82a5824445ade0824351c2a9acd95a8",
+        "41": "0x34d0dc122cf9a8eb296fc5e0d3a233625d7d19b7",
+        "48": "0xa4bdb396a69617eb7f70e2cc1ef526f7340b1b0d",
+        "68": "0x3a6ec0aa6c702323414d449b5f60f4b742a82ded"
+      }
+    },
+    "0xc33acc93942105c57602e59e8e448c20ba718a85": {
+      "profile": "c33-e7-v1",
+      "code_hash": "0xba6ea36f9155a3aaff17e138b277cfc7e46f48cb06be0fc05ac707de8e2f360b"
+    },
+    "0x9e9ead6e46268a45c7559c8dfa5a778bad6ad331": {
+      "profile": "9e-fallback-v1",
+      "code_hash": "0x486913deca05e3b5e15ebfd8b8b066f8c50571e55f45f5ca6229627b87a81990"
+    },
+    "0x278d858f05b94576c1e6f73285886876ff6ef8d2": {
+      "profile": "278-a005-v1",
+      "code_hash": "0x2a1882ea8064d42b44d7cbcd1efdf5ab620ae0e270256ee12c80648dd82ed838",
+      "implementation": "0x617e169f98f966d520946282de52340b94b59a7c",
+      "implementation_slot": "0x2b1ffc369630770908ae8b04282e29044dfb19c5b4378f67d00e0a2ef5f153e2",
+      "implementation_code_hash": "0x4d86f4a9150951e1c0209115b70b7ed74fa8166a0fbb611ea00ab56ca3801c32"
+    },
+    "0x29d8d0a5c38716ebb4ae1786a46cf0ab74d480db": {
+      "profile": "29-record55-v1",
+      "code_hash": "0xbbae24f99e79b80b24233c52fae936078a355a6c8c3b0b4fca6b2b6c75fc1f95",
+      "mapping_slot": 1,
+      "pool_indexes": {
+        "2": "0x69bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a",
+        "23": "0xddcbba3666f578e3f09516f21ff85bfee859ab5e",
+        "30": "0x62ab521f71431f78ac374cdbadc6cda3c8916b6c",
+        "41": "0xc3c9f0171490ef0f4536fe493f3b0ebb5ee0cb5e",
+        "48": "0x8bb3514e2204e1cdf3ac149efee7ff04d91b719f",
+        "1": "0x06a889870c8f83640d6816319f72e2aa579b6080",
+        "5": "0x0000000000000000000000000000000000000000",
+        "6": "0xfae65eaa11943f45e83d5b45dc7a7c801c51bfb0",
+        "7": "0x0000000000000000000000000000000000000000",
+        "8": "0x16679e2ac1a798865ecf1c1639e67693ddb1c220",
+        "9": "0x0000000000000000000000000000000000000000",
+        "12": "0x0000000000000000000000000000000000000000",
+        "15": "0x6356d82a3d7b9223764339b5f50e7ed01641fb30",
+        "17": "0x8132252bd65e7c03f7b57739e1db1c58d6ee792f"
+      },
+      "pool_configs": {
+        "2": "0x201000269bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a",
+        "23": "0x3010002ddcbba3666f578e3f09516f21ff85bfee859ab5e",
+        "30": "0x401000262ab521f71431f78ac374cdbadc6cda3c8916b6c",
+        "41": "0x6010002c3c9f0171490ef0f4536fe493f3b0ebb5ee0cb5e",
+        "48": "0x80100028bb3514e2204e1cdf3ac149efee7ff04d91b719f",
+        "1": "0xa8000000200000306a889870c8f83640d6816319f72e2aa579b6080",
+        "5": "0xa0001f4020000030000000000000000000000000000000000000000",
+        "6": "0x2010002fae65eaa11943f45e83d5b45dc7a7c801c51bfb0",
+        "7": "0x90001cc020000030000000000000000000000000000000000000000",
+        "8": "0x201000216679e2ac1a798865ecf1c1639e67693ddb1c220",
+        "9": "0x1000064020000030000000000000000000000000000000000000000",
+        "12": "0x40000c8020100030000000000000000000000000000000000000000",
+        "15": "0x20100026356d82a3d7b9223764339b5f50e7ed01641fb30",
+        "17": "0x20100028132252bd65e7c03f7b57739e1db1c58d6ee792f"
+      }
+    },
+    "0x7693900963049c5401d12af0265f619729a4e94a": {
+      "profile": "769-single-v3-v1",
+      "code_hash": "0x108fb920ca63000020c7a31ffed55cec6560b6576374116bf1d490d1de595215"
+    },
+    "0x4262efbd176f02824af27010bea218429c33c7e8": {
+      "profile": "426-parallel-v3-v1",
+      "code_hash": "0x9f3e5998d3c83fe5866c55df0d426ad250272a7738acebd128409472f4f2f227",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "implementation": "0xdf23ae39fb2a1338c16751f0ca1b4c1de26725fd",
+      "implementation_code_hash": "0x2d89b67fdcb592e4961b64ae107ad27ad1b2f238cadc9ea7fc6b5c83d91b5030",
+      "dependencies": [
+        {
+          "address": "0x006102b16a04c20306a28b652745d3973d7d24fa",
+          "code_hash": "0x9f3e5998d3c83fe5866c55df0d426ad250272a7738acebd128409472f4f2f227",
+          "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+          "implementation": "0xdfe851005a37107209d30f9b124467807f3aa86f",
+          "implementation_code_hash": "0x795cc666b9fcf2e87870ed1dda2be0c84204e7b24224a34221d8cd803aaa40a4"
+        },
+        {
+          "address": "0x7e0aab35a05e63381e7e89f34cbb9df1f5f1baa9",
+          "code_hash": "0x9f3e5998d3c83fe5866c55df0d426ad250272a7738acebd128409472f4f2f227",
+          "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+          "implementation": "0xc3dd348d5a310987c716035a18ccf75b2c5cc99c",
+          "implementation_code_hash": "0x987099d6410b191a8a21b805285e6b9c3a3d4f30a513e32058f90461fb2f3f42",
+          "required_storage": {
+            "0x057cb01ecf87f09e9850e6ae07da15cec74175931e2ee925e5c89655ec2a8b00": "0x000000000000000000000000006102b16a04c20306a28b652745d3973d7d24fa",
+            "0x057cb01ecf87f09e9850e6ae07da15cec74175931e2ee925e5c89655ec2a8b01": "0x000000000000000000000000caf681a66d020601342297493863e78c959e5cb2"
+          }
+        },
+        {
+          "address": "0xcaf681a66d020601342297493863e78c959e5cb2",
+          "code_hash": "0x6f36c378e272c6324c48f045182bcb54bd8ad654cf9ebd42e8893d52c4cb25dc"
+        }
+      ]
+    },
+    "0x7dec8663bc55f3419a130fac7a7209b959ed8d90": {
+      "profile": "7dec-memory-word-v1",
+      "code_hash": "0xf17cbdbe5d873b30d3b9b385a855131f542ece75931a300e88103b33935cdb9e"
+    },
+    "0xc9a1dcff54632b408f2b0e048d8b7d3261697144": {
+      "profile": "c9-callback-v1",
+      "code_hash": "0x22693af34830639c2d002e10bf71d90046f7f831b1561c4ce78e5900cb163cca",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "implementation": "0x3df130d9d12dcc124707b14decb0dbcebb689ff3",
+      "implementation_code_hash": "0xc911e3903c7a4ff7d9c3de220f72a5a92dd356745b5d87772c819bbb649f653d",
+      "dependencies": [
+        {
+          "address": "0x111111338c5091e8440b67b168bae16a668ac0de",
+          "code_hash": "0xc945eab9457f0edc9673118443b9cadac7e7bdedf0dd734b260c2f39fef5f1c4"
+        },
+        {
+          "address": "0x1111113ccf1426a8e30e2bff5e005d929bf6a90a",
+          "code_hash": "0x720bc02d220db318164dc3bade86eec1f3655bdc00fc1174de7d816a95c341f8"
+        }
+      ]
+    },
+    "0x204faca1764b154221e35c0d20abb3c525710498": {
+      "profile": "204f-permit-v3-v1",
+      "code_hash": "0x76b92a5bba2dd32019a64eb421f1750e78c6ba044dbfa6840b722eb5ac63d296",
+      "dependencies": [
+        {
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "code_hash": "0x5208783f52488f7d3493e5e38311ab707c1d75457fe472a19b0b4d57d66a7fca"
+        }
+      ]
+    },
+    "0x61083b541a5851d373cf01c22dde3946d14a0525": {
+      "profile": "610-fixed-v3-v1",
+      "code_hash": "0x8011f862a036fd4d2e6b4afc2c2427b002295b59341dbf80850b401fa62db21d"
+    }
+  }
+}

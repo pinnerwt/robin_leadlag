@@ -1,0 +1,25 @@
+{
+  "feed": "iex",
+  "url": "wss://stream.data.alpaca.markets/v2/iex",
+  "symbols": [
+    "AAPL",
+    "GOOGL",
+    "INTC",
+    "META",
+    "MU",
+    "NET",
+    "NVDA",
+    "QQQ",
+    "SPCX",
+    "SPY",
+    "TSLA"
+  ],
+  "disk_reserve_gib": 10,
+  "excluded_pools": {
+    "WETH/USDG": "Crypto; no IEX equity quote",
+    "INDEX/USDG": "No verified US equity mapping",
+    "ORBIO/USDG": "No verified US equity mapping",
+    "PONS/USDG": "No verified US equity mapping"
+  },
+  "symbol_mapping_status": "Same-name stock symbols; subscription ACK alone does not establish quote availability"
+}

@@ -1,0 +1,37 @@
+{
+  "mode": "standby",
+  "credentials_file": "/home/ubuntu/.config/robin-leadlag/trading.env",
+  "executor": "0x3c2b334a9f9970b27d1f32deb477df59a03a8a78",
+  "executor_codehash": "0xfb4be43ef59ba52d16e8d7bdec21409a3345fa4cb8f194e41c7738dbc43e1efb",
+  "input_socket": "/run/metric-trader/input.sock",
+  "state_directory": "state/metric-trader-b89",
+  "status_file": "reports/metric-trader-status.json",
+  "audit_file": "state/metric-trader-b89/trading.bin",
+  "chain_ws_url": "wss://rpc-robinhood.blockmachine.io",
+  "binance_ws_url": "wss://data-stream.binance.vision/ws/ethusdt@bookTicker",
+  "binance_connections": 3,
+  "rotate_seconds": 300,
+  "submit_urls": [
+    "https://sequencer.mainnet.chain.robinhood.com",
+    "https://rpc.mainnet.chain.robinhood.com"
+  ],
+  "additional_long_usdg": "100",
+  "initial_cash_usdg": "100",
+  "open_bps": 10,
+  "close_bps": -10,
+  "slippage_bps": 1,
+  "execution_budget_ms": 20,
+  "max_bbo_age_ms": 1000,
+  "max_state_age_ms": 100,
+  "max_account_age_ms": 10000,
+  "max_head_age_ms": 2000,
+  "gas_limit": 500000,
+  "max_fee_per_gas": "1000000000",
+  "priority_fee_per_gas": "0",
+  "order_ttl_ms": 1000,
+  "circuit": {
+    "window_seconds": 60,
+    "max_orders": 12,
+    "max_reverts": 3
+  }
+}

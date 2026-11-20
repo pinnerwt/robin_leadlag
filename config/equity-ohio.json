@@ -1,0 +1,163 @@
+{
+  "duration_seconds": 86400,
+  "disk_reserve_gib": 10,
+  "connections_per_venue": 3,
+  "rotation_seconds": 300,
+  "rotation_min_samples": 100,
+  "rotation_warmup_seconds": 30,
+  "dedup_cache_entries": 250000,
+  "feeds": [
+    {
+      "venue": "binance",
+      "url": "wss://data-stream.binance.vision/ws",
+      "instruments": {
+        "MUBUSDT": {
+          "ticker": "MU",
+          "quote_currency": "USDT"
+        },
+        "NVDABUSDT": {
+          "ticker": "NVDA",
+          "quote_currency": "USDT"
+        },
+        "TSLABUSDT": {
+          "ticker": "TSLA",
+          "quote_currency": "USDT"
+        },
+        "SPCXBUSDT": {
+          "ticker": "SPCX",
+          "quote_currency": "USDT"
+        },
+        "INTCBUSDT": {
+          "ticker": "INTC",
+          "quote_currency": "USDT"
+        },
+        "METABUSDT": {
+          "ticker": "META",
+          "quote_currency": "USDT"
+        },
+        "QQQBUSDT": {
+          "ticker": "QQQ",
+          "quote_currency": "USDT"
+        },
+        "GOOGLBUSDT": {
+          "ticker": "GOOGL",
+          "quote_currency": "USDT"
+        },
+        "SPYBUSDT": {
+          "ticker": "SPY",
+          "quote_currency": "USDT"
+        },
+        "AAPLBUSDT": {
+          "ticker": "AAPL",
+          "quote_currency": "USDT"
+        },
+        "ETHUSDT": {
+          "ticker": "ETH",
+          "quote_currency": "USDT",
+          "instrument_type": "crypto_spot"
+        }
+      },
+      "missing_tickers": [
+        "NET"
+      ]
+    },
+    {
+      "venue": "kraken",
+      "url": "wss://ws.kraken.com/v2",
+      "instruments": {
+        "AAPLx/USD": {
+          "ticker": "AAPL",
+          "quote_currency": "USD"
+        },
+        "GOOGLx/USD": {
+          "ticker": "GOOGL",
+          "quote_currency": "USD"
+        },
+        "INTCx/USD": {
+          "ticker": "INTC",
+          "quote_currency": "USD"
+        },
+        "METAx/USD": {
+          "ticker": "META",
+          "quote_currency": "USD"
+        },
+        "MUx/USD": {
+          "ticker": "MU",
+          "quote_currency": "USD"
+        },
+        "NETx/USD": {
+          "ticker": "NET",
+          "quote_currency": "USD"
+        },
+        "NVDAx/USD": {
+          "ticker": "NVDA",
+          "quote_currency": "USD"
+        },
+        "QQQx/USD": {
+          "ticker": "QQQ",
+          "quote_currency": "USD"
+        },
+        "SPCXx/USD": {
+          "ticker": "SPCX",
+          "quote_currency": "USD"
+        },
+        "SPYx/USD": {
+          "ticker": "SPY",
+          "quote_currency": "USD"
+        },
+        "TSLAx/USD": {
+          "ticker": "TSLA",
+          "quote_currency": "USD"
+        },
+        "ETH/USD": {
+          "ticker": "ETH",
+          "quote_currency": "USD",
+          "instrument_type": "crypto_spot"
+        }
+      },
+      "missing_tickers": []
+    },
+    {
+      "venue": "bybit",
+      "url": "wss://stream.bybit.com/v5/public/spot",
+      "instruments": {
+        "AAPLXUSDT": {
+          "ticker": "AAPL",
+          "quote_currency": "USDT"
+        },
+        "GOOGLXUSDT": {
+          "ticker": "GOOGL",
+          "quote_currency": "USDT"
+        },
+        "METAXUSDT": {
+          "ticker": "META",
+          "quote_currency": "USDT"
+        },
+        "NVDAXUSDT": {
+          "ticker": "NVDA",
+          "quote_currency": "USDT"
+        },
+        "SPCXXUSDT": {
+          "ticker": "SPCX",
+          "quote_currency": "USDT"
+        },
+        "TSLAXUSDT": {
+          "ticker": "TSLA",
+          "quote_currency": "USDT"
+        },
+        "ETHUSDT": {
+          "ticker": "ETH",
+          "quote_currency": "USDT",
+          "instrument_type": "crypto_spot"
+        }
+      },
+      "missing_tickers": [
+        "INTC",
+        "MU",
+        "NET",
+        "QQQ",
+        "SPY"
+      ]
+    }
+  ]
+}

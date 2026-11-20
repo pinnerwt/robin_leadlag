@@ -1,0 +1,20 @@
+{
+  "chain_ws": "wss://rpc-robinhood.blockmachine.io",
+  "nitro_ws": "ws://127.0.0.1:19659",
+  "binance_ws": "wss://data-stream.binance.vision/ws/ethusdt@bookTicker",
+  "bootstrap_rpc": "https://rpc.mainnet.chain.robinhood.com",
+  "template": "deploy/robin/trader-checkpoint-template.json",
+  "pool_config": "config/metric-live-observer-pools.json",
+  "checkpoint": "state/metric-observer/checkpoint.json",
+  "status": "reports/metric-observer-status.json",
+  "bootstrap_log": "state/metric-observer/bootstrap.log",
+  "trader_config": "config/metric-trader-b89.json",
+  "setup_journal": "state/metric-trader-b89/setup.json",
+  "stream_timeout_seconds": 10,
+  "recovery_initial_seconds": 5,
+  "recovery_max_seconds": 300,
+  "audit_interval_seconds": 60,
+  "audit_max_age_seconds": 180,
+  "audit_tolerance_bps": 2,
+  "audit_report": "reports/metric-pool-audit.json"
+}

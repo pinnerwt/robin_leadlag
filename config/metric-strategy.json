@@ -1,0 +1,14 @@
+{
+  "max_position_usdg": "500",
+  "position_scope": "per_token",
+  "target_edge_bps": ["10", "15", "20", "25", "30"],
+  "exit_edge_bps": null,
+  "execution_delay_ms": 150,
+  "initial_position_tokens": "0",
+  "initial_cash_usdg": "500",
+  "allow_short": false,
+  "max_bbo_age_ms": 1000,
+  "usdg_per_usdt": "1",
+  "gas_usdg_per_trade": "0",
+  "notes": "Exit null uses the same Y as entry. USDG/USDT parity is an explicit assumption. Gas is excluded until supplied. No fixed holding period; sell existing inventory only. Do not feed swap-price proxies or initial-only quotes to the backtest."
+}

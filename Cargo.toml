@@ -1,0 +1,27 @@
+[package]
+name = "robin-leadlag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+k256 = { version = "0.13", features = ["ecdsa"] }
+anyhow = "1"
+futures-util = "0.3"
+hex = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net", "io-util", "signal"] }
+tokio-tungstenite = { version = "0.28", features = ["rustls-tls-webpki-roots"] }
+sha3 = "0.10"
+base64 = "0.22"
+revm = { version = "19.7.0", default-features = false, features = ["std", "secp256k1", "dev"] }
+alloy-consensus = { version = "0.8", features = ["k256"] }
+alloy-eips = "0.8"
+alloy-rlp = "0.3"
+derive_more = { version = "1", features = ["display"] }
+
+brotli = "7.0.0"
+num-bigint = "0.4"
+num-integer = "0.1"
+num-traits = "0.2"

@@ -1,0 +1,15 @@
+{
+  "rpc": "https://rpc.mainnet.chain.robinhood.com",
+  "max_buffer_blocks": 20000,
+  "max_attempts": 3,
+  "retry_seconds": 30,
+  "retry_max_seconds": 300,
+  "bootstrap_timeout_seconds": 900,
+  "alignment_timeout_seconds": 120,
+  "backend": "known_slots",
+  "template": "deploy/robin/checkpoint-template-local.json",
+  "rpc_batch_size": 25,
+  "rpc_batch_interval_seconds": 1.2,
+  "canonical_join_timeout_seconds": 15,
+  "stable_stream_seconds": 5
+}

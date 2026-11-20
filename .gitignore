@@ -1,0 +1,6 @@
+/target/
+*.jsonl
+/captures/
+.env
+deploy/
+reports/

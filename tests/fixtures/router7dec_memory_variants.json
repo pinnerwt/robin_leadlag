@@ -1,0 +1,354 @@
+[
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064440000000000000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 0,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064440123456700000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 514631493222945105325971421573240365883976325135760395164659172419450175488,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800644489abcdef00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": -53521676831903250981487496139636858012052486211436313181937185354528602456064,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006444ffffffff00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": -26959946667150639794667015087019630673637144422540572481103610249216,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064500000000000000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 0,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064500123456700000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 6495562649585495647867247793990913424053239808,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645089abcdef00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 785963102377916456331998644728875399943607549952,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006450ffffffff00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 1461501636990620551282746369252908412224164331520,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f0000000000000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 0,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f0123456700000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 4886718208,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f89abcdef00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 591292919552,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645fffffffff00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 1099511627520,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064600000000000000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 0,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064600123456700000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 19088743,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800646089abcdef00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 2309737967,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x2f0bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006460ffffffff00000000000000000002cebe89b7c2d968ca0cb452e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": false,
+      "amount": 4294967295,
+      "limit": 3394173939688953034181812
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064440000000000000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": 26959946667150639794667015087019630673637144422540572481103610249215,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064440123456700000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": 514631520182891772476611216240255452903606998772904817705231653523060424703,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800644489abcdef00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -53521676804943304314336856344969842925032855537799168759396612873424992206849,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006444ffffffff00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064500000000000000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1461501636990620551282746369252908412224164331521,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064500123456700000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1455006074341035055634879121458917498800111091713,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645089abcdef00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -675538534612704094950747724524033012280556781569,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006450ffffffff00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f0000000000000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1099511627521,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f0123456700000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1094624909313,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645f89abcdef00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -508218707969,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800645fffffffff00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064600000000000000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -4294967296,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d1680064600123456700000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -4275878553,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d16800646089abcdef00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1985229329,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  },
+  {
+    "calldata": "0x310bd7d308f8e1639fab988df18a8011f41eacad735fc5360d0400a0fd4f2af552add042d716f1d168006460ffffffff00000000000000000002cf89e5a13a0bae69dbc052e65b17fb6e5ba00ed806f37afcd2daa50271ca03",
+    "expected": {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "zero": true,
+      "amount": -1,
+      "limit": 3397925251691700898356160
+    },
+    "synthetic": true,
+    "provenance": "mutated calldata executed by archived router bytecode; pool call intercepted"
+  }
+]

@@ -1,0 +1,675 @@
+{
+  "chain_id": 4663,
+  "asof_ns": 1794690307943574798,
+  "sources": [
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/pools?page=1",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/pools?page=2",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/pools?page=3",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/pools?page=4",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/pools?page=5"
+  ],
+  "selection": "first five GeckoTerminal pool pages; volume >=10k and liquidity >=100k; not exhaustive",
+  "raw_capture": "unfiltered existing Nitro/log tape",
+  "pools": [
+    {
+      "pool": "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "USDG / WETH 0.01%",
+      "tokens": [
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 11733318.6791,
+      "volume_24h_usd": 138250821.991003,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x7615926023bb149f36095645c2a81dc367d39750",
+      "dex": "aero-slipstream-robinhood",
+      "pair": "WETH / USDG 0.054%",
+      "tokens": [
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1451707.9944,
+      "volume_24h_usd": 77214833.4822649,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xa791e5169faf703c0b63fd9552c33ec1128a773a00f5dc33a640da62a022cd35",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 7119563.8069,
+      "volume_24h_usd": 57926962.7632228,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x7b30ce1f0c80df90ec197958c3b4fc77b35e2bb729dedaa0d97cf754c697470a",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "Claude / USDG",
+      "tokens": [
+        "0xeda70372e28bc850c81165b0e8867f7e06018b07",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1632424.701,
+      "volume_24h_usd": 15585249.9805909,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x1e8fc442ad3606719f7016ded6c17b56c3ca7386",
+      "dex": "metric-robinhood",
+      "pair": "WETH / USDG",
+      "tokens": [
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1520573.5755,
+      "volume_24h_usd": 9331066.21005533,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x62ab521f71431f78ac374cdbadc6cda3c8916b6c",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "NVDA / WETH 0.05%",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 1220824.2191,
+      "volume_24h_usd": 8577142.43759199,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x69bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "USDG / WETH 0.05%",
+      "tokens": [
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 2875989.087,
+      "volume_24h_usd": 8285680.09801887,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xd4eb21209c4d6093f80b5b84f5c45cc093ea14a3",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "NVDA / USDG 0.05%",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1920023.0396,
+      "volume_24h_usd": 5303706.70226639,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xda14bf8a87711e1f30dbe620f2df3fdf371f7503f1a72202d15631f657651ec0",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "SPY / NVDA 0.025%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec"
+      ],
+      "liquidity_usd": 783004.7737,
+      "volume_24h_usd": 4219929.39934181,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xfae65eaa11943f45e83d5b45dc7a7c801c51bfb0",
+      "dex": "ramses-v3-robinhood",
+      "pair": "WETH / USDG 0.01%",
+      "tokens": [
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 535745.9246,
+      "volume_24h_usd": 4118905.92265658,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xbac3aa3b91584a53a579b3c999a56756e954e59247e497bad1d25a4334bde551",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 7164704.3299,
+      "volume_24h_usd": 4061708.72420438,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xf2a0be59ab76b96f957bd5e5b967f2b75e8db269",
+      "dex": "ramses-v3-robinhood",
+      "pair": "PONS / USDG 0.3%",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 488242.8309,
+      "volume_24h_usd": 4020191.02146448,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xa7f644f846574aff0f663e58a5bc1d93702eebb6ab1b396107ac7c8bd6338d95",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "CLAUDIA / WETH",
+      "tokens": [
+        "0x43fc3c8440d85d7df99ecfbc6a267de8327f923b",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 326370.8021,
+      "volume_24h_usd": 3826034.10173375,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0xc61284332117c3fb23a2a56cceffd07f7af60029",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "SPCX / USDG 0.05%",
+      "tokens": [
+        "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1650930.8136,
+      "volume_24h_usd": 3195895.07807549,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x6c4219e3a8dc8c8eac76162343644c4afa3def5e02f6da057d6dca6f8650d7c1",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "IntentRail / WETH 0.3%",
+      "tokens": [
+        "0x46ec58fdb915b8d716bcd518ea907d9097cc053a",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 149173.8449,
+      "volume_24h_usd": 2899929.88521029,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x0b714c68332808d60ac113ab88871c536fb6138153f9b3b828f9dfc3398b14ec",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "DepthReceipt / WETH 0.3%",
+      "tokens": [
+        "0x51fb9ca58f726a0fb0d6ba86b018bb71821bdd03",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 111817.5859,
+      "volume_24h_usd": 2820752.66670239,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x387bf619da4d3fb62bb276482693dba1b9b3520f573cabdfe033384a24125982",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG 0.05%",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1003274.59,
+      "volume_24h_usd": 2699543.17992224,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x05afb8e895e77ce70f79056137ea606b05bf5abd",
+      "dex": "aero-slipstream-robinhood",
+      "pair": "SPY / WETH 0.073%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 268309.3652,
+      "volume_24h_usd": 2489534.80164842,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xa1513da56f71b83d98124d645828a14a191b8010",
+      "dex": "aero-slipstream-robinhood",
+      "pair": "NVDA / USDG 0.024%",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 481097.8501,
+      "volume_24h_usd": 2429831.84339437,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x16679e2ac1a798865ecf1c1639e67693ddb1c220",
+      "dex": "up-v3",
+      "pair": "WETH / USDG 0.05%",
+      "tokens": [
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 153147.9315,
+      "volume_24h_usd": 2377530.06319416,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xc3c9f0171490ef0f4536fe493f3b0ebb5ee0cb5e",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "SPCX / WETH 0.05%",
+      "tokens": [
+        "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 705961.6481,
+      "volume_24h_usd": 1979848.27393983,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xa94e5130a57c48b0b2f266709634a45be7ae8171",
+      "dex": "metric-robinhood",
+      "pair": "SPCX / USDG",
+      "tokens": [
+        "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 1275659.8265,
+      "volume_24h_usd": 1739066.7648294,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x79ac9e4f5382b2157ad06ce57392ad3677a09c83",
+      "dex": "aero-slipstream-robinhood",
+      "pair": "SPCX / USDG 0.027%",
+      "tokens": [
+        "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 139771.5928,
+      "volume_24h_usd": 1569731.79555483,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xd75790f3a3f639fedb7406df6dabb5bb8605949b",
+      "dex": "aero-slipstream-robinhood",
+      "pair": "PONS / USDG 0.288%",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 261160.6061,
+      "volume_24h_usd": 1491490.31904721,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xaf7d2ecec21c88509c317726ee7408a390199103f242695dfe554ff5d559f9c3",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "ANT / WETH",
+      "tokens": [
+        "0x36c2861a1f94c6f277a388338a4f8a686e0d9b30",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 180130.0532,
+      "volume_24h_usd": 1465432.27165862,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x590dcb6a87828bf688b48089a62239b693378f1fb64d2286e6a399ed8c005fdf",
+      "dex": "uniswap-pools-trade",
+      "pair": "HOOKR / WETH 0.25%",
+      "tokens": [
+        "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 606465.187,
+      "volume_24h_usd": 1416137.9697849,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x51b6ca77deae9f17c1d89edfb301ae50053c57a5",
+      "dex": "ramses-v3-robinhood",
+      "pair": "PONS / WETH 1%",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 181453.4778,
+      "volume_24h_usd": 1396695.68458468,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xe1ae6a4c6ccc9f037389a8d50a4f577bde1a9fe01d85d88ecbbd39955ce53288",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "SPY / USDG 0.01%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 220620.4806,
+      "volume_24h_usd": 1299345.18316097,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xd42a491087a15e5afd51feb3606066cc152d2b09",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "CASHCAT / WETH 0.3%",
+      "tokens": [
+        "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 599824.8383,
+      "volume_24h_usd": 1207007.95664044,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x656d4e0c3861800cb78d153e4ad311a592da88ce5966bd57d98a6c1cd277aa26",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "VEKTA / WETH 0.01%",
+      "tokens": [
+        "0xb99fe2c2a800be2e06670040686a2618c1b25e11",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 133680.2202,
+      "volume_24h_usd": 1131849.87509674,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
+      "dex": "uniswap-pools-trade",
+      "pair": "FRONG / WETH 0.25%",
+      "tokens": [
+        "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 407142.5263,
+      "volume_24h_usd": 1128147.99656243,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x24107d152f14a76d292123265ae3f3c71f863fc2f4ef7ba49d64e78d28ea379e",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG 0.01%",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 103198.8016,
+      "volume_24h_usd": 1067544.73412095,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x2eb3ec0c7e94f83af3458de5f907a9910932a6b5",
+      "dex": "metric-robinhood",
+      "pair": "GOOGL / USDG",
+      "tokens": [
+        "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 824267.0407,
+      "volume_24h_usd": 1041550.57028499,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x9cc8c4f6118419a27f113723f1dea646685be55f",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "VIRTUAL / WETH 0.05%",
+      "tokens": [
+        "0xc6911796042b15d7fa4f6cde69e245ddcd3d9c31",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 223048.4579,
+      "volume_24h_usd": 1036843.48542651,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x90cabda18279bbb3d935989af807b08b0e8cec61",
+      "dex": "metric-robinhood",
+      "pair": "META / USDG",
+      "tokens": [
+        "0xc0d6457c16cc70d6790dd43521c899c87ce02f35",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 514536.8201,
+      "volume_24h_usd": 1032641.11049534,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xddcbba3666f578e3f09516f21ff85bfee859ab5e",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "SPY / WETH 0.05%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 667814.7963,
+      "volume_24h_usd": 1010681.36879983,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x99932c7660dd58cf19f0e82e97f288d88d033480",
+      "dex": "metric-robinhood",
+      "pair": "TSLA / USDG",
+      "tokens": [
+        "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 224585.9383,
+      "volume_24h_usd": 1005012.07178836,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x6d0f67069596c7ef9d1ce6981c1b6dbcd9a91b0c5393aebe9dd07c35e412df30",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "GOOGL / SPY 0.025%",
+      "tokens": [
+        "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c"
+      ],
+      "liquidity_usd": 626644.149,
+      "volume_24h_usd": 996171.428989287,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x38453c115607463ac284820ce959831042f3df4e",
+      "dex": "ramses-v3-robinhood",
+      "pair": "SPY / USDG 0.01%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 247554.2191,
+      "volume_24h_usd": 992789.690414676,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x934e60d1c6c34242b92159a5bcc710fafa50ad87",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "cbBTC / WETH 0.05%",
+      "tokens": [
+        "0xcec185eb182c47d1ba1efc84e6959e18cd620be4",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 394585.3366,
+      "volume_24h_usd": 810716.147482834,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x54f7883914619af9105355bf83ed678bcf9f63560218ac61c9963b9503d0ba32",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG 0.046%",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 398231.5388,
+      "volume_24h_usd": 750850.029208539,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x486435a1f76cd58193f854c6e6213cd05fd58d637865d02065ff558b387fa6ea",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "PONS / USDG",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 322909.27,
+      "volume_24h_usd": 703854.231185624,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xc0be1cb0f674d9737c72b2a63fc542361185b807",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "NVDA / WETH 0.3%",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 509287.4725,
+      "volume_24h_usd": 618508.052940642,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xcc2a903a8744a65258bb07fbeea553a25410f731c9fef306321d0c176a09542c",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "SPY / MU 0.05%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0xff080c8ce2e5feadaca0da81314ae59d232d4afd"
+      ],
+      "liquidity_usd": 401183.9863,
+      "volume_24h_usd": 556691.043911252,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x509c6c6826ef06e0e29f24f18d9389533c52358a3b385d99a67a2afbb07f23c6",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "SPY / WETH 0.1%",
+      "tokens": [
+        "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "liquidity_usd": 516753.771,
+      "volume_24h_usd": 494004.878859794,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xdac1904d823f7d6bcaaf431ceee40c934fed321b",
+      "dex": "ramses-v3-robinhood",
+      "pair": "NVDA / USDG 0.05%",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 138856.4074,
+      "volume_24h_usd": 453834.058346055,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xed50bdeea8adc232f159486192a4157281d722ff",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "PONS / WETH 0.3%",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 656212.5474,
+      "volume_24h_usd": 426432.986316538,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0xa9188730fe85be88ad499d7d52b099e800fb0334",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "USDG / WETH 0.3%",
+      "tokens": [
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 652299.4716,
+      "volume_24h_usd": 419937.329562493,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x9664d869540e9d0a76f12c6623946c6d5d201e09",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "cbBTC / USDG 0.05%",
+      "tokens": [
+        "0xcec185eb182c47d1ba1efc84e6959e18cd620be4",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 186540.1814,
+      "volume_24h_usd": 418040.81085456,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0x85aa9a7c2ef9deec7bcbc5e78c6b26d2598c2aaf3f810b267fa4f8f9b0854142",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "WETH / USDG 0.003%",
+      "tokens": [
+        "0x0000000000000000000000000000000000000000",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 145824.9059,
+      "volume_24h_usd": 416894.481529023,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x8bb3514e2204e1cdf3ac149efee7ff04d91b719f",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "AAPL / WETH 0.05%",
+      "tokens": [
+        "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 155053.3972,
+      "volume_24h_usd": 355024.978506639,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x7990aad9e8fb048f49a155a7df5603db0366f0657035b78eb4196395cccb3dcd",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "NVDA / USDG",
+      "tokens": [
+        "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 232719.4177,
+      "volume_24h_usd": 290858.81926366,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x4be9657ec9002e528f4f17a5c43edc525a07f888f7b180c2afbf75e096c4f38a",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "PONS / USDG 0.3%",
+      "tokens": [
+        "0x39dbed3a2bd333467115de45665cc57f813c4571",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 350809.6132,
+      "volume_24h_usd": 259724.920209145,
+      "metric_tokens_match": true
+    },
+    {
+      "pool": "0x26250ba84465454bc731f710e46f1f32b167d66b",
+      "dex": "uniswap-v3-robinhood",
+      "pair": "gld / WETH 0.05%",
+      "tokens": [
+        "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",
+        "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+      ],
+      "liquidity_usd": 168796.892,
+      "volume_24h_usd": 217436.774534497,
+      "metric_tokens_match": false
+    },
+    {
+      "pool": "0xa92a3df27a00a276183ff7265fd8affa11df1fe8bb23ddfaf13f6c879a3f818b",
+      "dex": "uniswap-v4-robinhood",
+      "pair": "CASHCAT / USDG 0.269%",
+      "tokens": [
+        "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+        "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+      ],
+      "liquidity_usd": 221947.8392,
+      "volume_24h_usd": 178710.81502031,
+      "metric_tokens_match": false
+    }
+  ]
+}

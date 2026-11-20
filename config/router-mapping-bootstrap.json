@@ -1,0 +1,15 @@
+[
+  {
+    "router": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+    "implementation_slot": "0x2b1ffc369630770908ae8b04282e29044dfb19c5b4378f67d00e0a2ef5f153e2",
+    "implementation_code_hash": "0x4d86f4a9150951e1c0209115b70b7ed74fa8166a0fbb611ea00ab56ca3801c32",
+    "mapping_slot": 0,
+    "evidence": "startup-v3-hash-trace.jsonl; caller-keyed slot, business semantics not yet inferred"
+  },
+  {
+    "router": "0xe844701934d9c6085b292e428f41b911cc0b3872",
+    "implementation_code_hash": "0x546b1ee252053f41cd7672c50a59d16dde0d7aed8cb753c413e0ce5eddf8f340",
+    "mapping_slot": 4,
+    "evidence": "startup-v4-hash-trace.jsonl; caller-keyed slot; business semantics not yet inferred"
+  }
+]

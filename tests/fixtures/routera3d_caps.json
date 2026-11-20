@@ -1,0 +1,122 @@
+[
+  {
+    "calldata": "0xe1210ff6abd180000006da634b09f60001",
+    "mantissa": 65536,
+    "exponent": 0,
+    "cap": "65536",
+    "inventory": "1000000000000",
+    "amount": "65536"
+  },
+  {
+    "calldata": "0xe1210ff6abd180000a06da634b09f60001",
+    "mantissa": 65536,
+    "exponent": 10,
+    "cap": "67108864",
+    "inventory": "1000000000000",
+    "amount": "67108864"
+  },
+  {
+    "calldata": "0xe1210ff6abd180001406da634b09f60001",
+    "mantissa": 65536,
+    "exponent": 20,
+    "cap": "68719476736",
+    "inventory": "1000000000000",
+    "amount": "68719476736"
+  },
+  {
+    "calldata": "0xe1210ff6abd180002806da634b09f60001",
+    "mantissa": 65536,
+    "exponent": 40,
+    "cap": "72057594037927936",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  },
+  {
+    "calldata": "0xe1210ff6abd180006e06da634b09f60001",
+    "mantissa": 65536,
+    "exponent": 110,
+    "cap": "85070591730234615865843651857942052864",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1c3500006da634b09f60001",
+    "mantissa": 100000,
+    "exponent": 0,
+    "cap": "100000",
+    "inventory": "1000000000000",
+    "amount": "100000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1c3500a06da634b09f60001",
+    "mantissa": 100000,
+    "exponent": 10,
+    "cap": "102400000",
+    "inventory": "1000000000000",
+    "amount": "102400000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1c3501406da634b09f60001",
+    "mantissa": 100000,
+    "exponent": 20,
+    "cap": "104857600000",
+    "inventory": "1000000000000",
+    "amount": "104857600000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1c3502806da634b09f60001",
+    "mantissa": 100000,
+    "exponent": 40,
+    "cap": "109951162777600000",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1c3506e06da634b09f60001",
+    "mantissa": 100000,
+    "exponent": 110,
+    "cap": "129807421463370690713262408230502400000",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1ffff8006da634b09f60001",
+    "mantissa": 131071,
+    "exponent": 0,
+    "cap": "131071",
+    "inventory": "1000000000000",
+    "amount": "131071"
+  },
+  {
+    "calldata": "0xe1210ff6abd1ffff8a06da634b09f60001",
+    "mantissa": 131071,
+    "exponent": 10,
+    "cap": "134216704",
+    "inventory": "1000000000000",
+    "amount": "134216704"
+  },
+  {
+    "calldata": "0xe1210ff6abd1ffff9406da634b09f60001",
+    "mantissa": 131071,
+    "exponent": 20,
+    "cap": "137437904896",
+    "inventory": "1000000000000",
+    "amount": "137437904896"
+  },
+  {
+    "calldata": "0xe1210ff6abd1ffffa806da634b09f60001",
+    "mantissa": 131071,
+    "exponent": 40,
+    "cap": "144114088564228096",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  },
+  {
+    "calldata": "0xe1210ff6abd1ffffee06da634b09f60001",
+    "mantissa": 131071,
+    "exponent": 110,
+    "cap": "170139885386254598024780171091801800704",
+    "inventory": "1000000000000",
+    "amount": "1000000000000"
+  }
+]

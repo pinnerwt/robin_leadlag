@@ -1,0 +1,48 @@
+{
+  "checkpoint": "captures/metric-hybrid-20261115T235506Z/checkpoint.json",
+  "events": "reports/metric-500-grid/spcx-causal-ingress-events.jsonl",
+  "bbo_tape": "reports/metric-500-grid/spcx-full-reconciled.jsonl",
+  "warmup_seconds": 120,
+  "max_position_usdg": "500",
+  "edges_bps": [
+    "10",
+    "15",
+    "20",
+    "25",
+    "30"
+  ],
+  "exit_edge_bps": null,
+  "slippage_bps": "1",
+  "max_bbo_age_ms": 1000,
+  "gas_usdg": "0",
+  "usdg_per_usdt": "1",
+  "routes": [
+    {
+      "name": "taiwan_observed_exec150",
+      "binance_shift_ms": 0,
+      "chain_shift_ms": 0,
+      "execution_ms": 150
+    },
+    {
+      "name": "ohio_hypothetical_exec20",
+      "binance_shift_ms": 100,
+      "chain_shift_ms": -175,
+      "execution_ms": 20
+    },
+    {
+      "name": "ohio_hypothetical_exec150",
+      "binance_shift_ms": 100,
+      "chain_shift_ms": -175,
+      "execution_ms": 150
+    }
+  ],
+  "route_assumptions": "Ohio shifts assume Tokyo->Taiwan 25ms, Tokyo->Ohio 125ms, Ohio->Taiwan 175ms. Not measured. Taiwan Binance capture connected directly, so treating it as Tokyo->Taiwan is a proxy.",
+  "assume_tracked_word_id": true,
+  "binding_assumption": "Direct CompressedOracle word ID 0x54 is treated as SPCX immediately, independent of future acceptance logs. This is a scoped heuristic, checked retrospectively for false positives.",
+  "calldata_clock": "Earliest recorded local relay receipt, mapped to recorder monotonic time",
+  "execution_delay_definition": "Trigger receipt to hypothetical fill, including assumed compute/sign/send/sequencing delay; no separate 5ms exchange delay is added",
+  "initial_cash_usdg": "0",
+  "initial_position_tokens": "3.573725966692873990",
+  "initial_mark_price_usdg": "139.90",
+  "initial_inventory_assumption": "Same token balance across routes: 500 / 139.91 (Taiwan initial Binance ask), floored to 18 decimals. All routes use common initial bid mark 139.90 USDG; actual acquisition cost is unknown."
+}

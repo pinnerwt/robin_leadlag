@@ -1,0 +1,386 @@
+[
+  {
+    "calldata": "0xda0dfdc30000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000003b9aca00",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 146215079536340746307181585462837903360393221250,
+      "after": 1329227995784915877198774356280344576393221250,
+      "selector": "0xda0dfdc3",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0xda0dfdc300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 146215079536340746307181585462837903360393221250,
+      "after": 393221250,
+      "selector": "0xda0dfdc3",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x7098d028000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000e8d4a51000000000000000000000000000000000000000000000000000000000000000c350",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x0",
+      "before": 3213877695456024810074199726644417546207008509768579453395587301121,
+      "after": 80346902212949513777118387026661781796534097196425657765068800001,
+      "selector": "0x7098d028",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x7098d02800000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00000000000000000000000000000000000000000000000000000000000001c800000000000000000000000000000000000000000000000000000000001e8480",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x8",
+      "before": 3213877695456024810074199726644417546207008509768579453395587301121,
+      "after": 3213876088517980551083924184682334453823185252727298990549338454784,
+      "selector": "0x7098d028",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x875260d600000000000000000000000000000000000000000000000000000000000f4240000000000000000000000000000000000000000000000000000000174876e80000000000000000000000000000000000000000000000000000000000ee6b28000000000000000000000000000000000000000000000000000000000000000003",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x9",
+      "before": 66902235600427572703175622679547388518941248,
+      "after": 66902235600427572703175622679547388518941248,
+      "selector": "0x875260d6",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x875260d60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x9",
+      "before": 66902235600427572703175622679547388518941248,
+      "after": 22300745198530623145162495731494448053354497,
+      "selector": "0x875260d6",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x17a41e5a00000000000000000000000000000000000000000000000000000000000014820000000000000000000000000000000000000000000000000000000000001770000000000000000000000000000000000000000000000003a1cfd104cf2c0000000000000000000000000000000000000000000000000000000000199c82cc00",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 146215079536340746307181585462837903360393221250,
+      "after": 146215079536340746307181585462837903360393221250,
+      "selector": "0x17a41e5a",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0x17a41e5a000000000000000000000000000000000000000000000000000000000000006400000000000000000000000000000000000000000000000000000000000000c8000000000000000000000000000000000000000000000000000000000000007b00000000000000000000000000000000000000000000000000000000000001c8",
+    "initial_storage": {
+      "0x9": "0x000000000000000000000000000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0x000000000000000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 146215079536340746307181585462837903360393221250,
+      "after": 606127966077921638044136020016131211364,
+      "selector": "0x17a41e5a",
+      "authorization_assumed": true
+    },
+    "reserved_bits": false
+  },
+  {
+    "calldata": "0xda0dfdc30000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000003b9aca00",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 4631838218772113570222297750043703426256305090864984906376046575621250,
+      "after": 4631838218772113570222152864192162870425875108053878348817262575621250,
+      "selector": "0xda0dfdc3",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0xda0dfdc300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 4631838218772113570222297750043703426256305090864984906376046575621250,
+      "after": 4631838218772113570222151534964167085509997909279522068472686575621250,
+      "selector": "0xda0dfdc3",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x7098d028000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000e8d4a51000000000000000000000000000000000000000000000000000000000000000c350",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x0",
+      "before": 77709350276608881839604229096899583180336122629737954629301625635735785701121,
+      "after": 77709350273475351046361153800602501840718366865327480216729471840105267200001,
+      "selector": "0x7098d028",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x7098d02800000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00000000000000000000000000000000000000000000000000000000000001c800000000000000000000000000000000000000000000000000000000001e8480",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x8",
+      "before": 77709350276608881839604229096899583180336122629737954629301625635735785701121,
+      "after": 77709350276608880232666184837909307638374039537354131372260345172889536854784,
+      "selector": "0x7098d028",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x875260d600000000000000000000000000000000000000000000000000000000000f4240000000000000000000000000000000000000000000000000000000174876e80000000000000000000000000000000000000000000000000000000000ee6b28000000000000000000000000000000000000000000000000000000000000000003",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x9",
+      "before": 16455594997889537280250041486068074747118062864589341248,
+      "after": 16455594997889537280250041486068074747118062864589341248,
+      "selector": "0x875260d6",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x875260d60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0x9",
+      "before": 16455594997889537280250041486068074747118062864589341248,
+      "after": 16455594997844935789848144536510061620170009924123754497,
+      "selector": "0x875260d6",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x17a41e5a00000000000000000000000000000000000000000000000000000000000014820000000000000000000000000000000000000000000000000000000000001770000000000000000000000000000000000000000000000003a1cfd104cf2c0000000000000000000000000000000000000000000000000000000000199c82cc00",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 4631838218772113570222297750043703426256305090864984906376046575621250,
+      "after": 4631838218772113570222297750043703426256305090864984906376046575621250,
+      "selector": "0x17a41e5a",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  },
+  {
+    "calldata": "0x17a41e5a000000000000000000000000000000000000000000000000000000000000006400000000000000000000000000000000000000000000000000000000000000c8000000000000000000000000000000000000000000000000000000000000007b00000000000000000000000000000000000000000000000000000000000001c8",
+    "initial_storage": {
+      "0x9": "0xabcdef000300000000ee6b2800174876e80000000f4240",
+      "0x0": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x1": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x2": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x3": "0x1e8480000000000000000ba43b7400000000014d1120d7b160000001",
+      "0x4": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x5": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x6": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x7": "0x1e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0x8": "0xabcdef001e8480ffffffffffffffffffffffffffffffffffffffffffffffff01",
+      "0xa": "0xabcdef000000000000199c82cc00000003a1cfd104cf2c000017701482"
+    },
+    "expected": {
+      "slot": "0xa",
+      "before": 4631838218772113570222297750043703426256305090864984906376046575621250,
+      "after": 4631838218772113570222151534964773213476075830917566204492702313611364,
+      "selector": "0x17a41e5a",
+      "authorization_assumed": true
+    },
+    "reserved_bits": true
+  }
+]

@@ -1,0 +1,16 @@
+import json
+from pathlib import Path
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+p=Path('reports/ohio-iex-first-20261119');r=json.load(open(p/'hy.json'))
+lines=['# First IEX → Metric provider lead-lag','', 'Window: 2026-11-19 14:30:00–14:57:31 UTC, first 27.5 minutes of regular-session data. Premarket excluded. Both streams use Ohio application receipt timestamps; no Taiwan latency translation. Positive lag means IEX leads Metric.','', 'HY uses log returns, 2 ms grid (0, ±1,3,…499 and ±500 ms), with five chronological subwindows. The narrow ±100 ms scan is retained in hy.json but is inadequate for several tickers. HY contrast is not a bounded Pearson correlation or a profit estimate.','', '| Ticker | Full-window peak ms | Five chronological peaks ms | HY contrast |','|---|---:|---|---:|']
+for v in r['results']:
+ a=v['source_mid'];f=a['wide_all'];lines.append(f"| {v['ticker']} | {f['peak_ms']} | {', '.join(str(z.get('peak_ms')) for z in a['wide_fold5'])} | {f['peak_contrast']:.3f} |")
+lines+=['','META, NVDA, MU, SPY, QQQ and INTC have positive peaks in all five windows. Exact lags vary; these are descriptive exploratory results, not independent out-of-sample validation. INTC has especially low contrast. TSLA and GOOGL are near the search boundary and unstable; SPCX and AAPL also change sign across windows. No reliable edge is established for those four.','','## Pool quote limitation','','These estimates concern the provider source mid decoded from Nitro calldata, not continuously executable pool bid/ask. Nine stock pools were already invalid before the selected window after an unhandled pool event. SPY had 1,797 valid quote observations through 14:37:15 UTC before losing trusted state. All ten end with invalid state. The partial SPY pool estimates in hy.json are not comparable with full-window provider results and must not be treated as full-session evidence. Auxiliary decoding also reports invalid feed-count messages. Raw data remains available for corrected replay.','','The fixed-size replay used about 500 USDG per ticker, initial state plus pushed updates, with no new RPC calls. Quotes depend on pool/provider settings, depth, expiry, and execution acceptance. IEX is a single-venue BBO, not consolidated NBBO; issuer/FX basis and fees matter. A 20 ms assumed submission latency cannot simply be subtracted from these HY peaks to infer profit.','','Extraction audit: zero Nitro decoding failures, no feed gaps in matching chain extraction. Input tapes are fixed local prefixes trimmed to complete records; recording services were not restarted for analysis.','','![HY curves](hy-provider-curves.png)']
+(p/'RESULTS.md').write_text('\n'.join(lines)+'\n')
+fig,axs=plt.subplots(3,2,figsize=(11,9),constrained_layout=True)
+for ax,t in zip(axs.flat,['META','NVDA','MU','SPY','QQQ','INTC']):
+ a=next(v for v in r['results']if v['ticker']==t)['source_mid']['wide_all'];c=a['curve'];ax.plot([z[0]for z in c],[z[1]for z in c],lw=1);ax.axvline(0,color='gray',ls='--');ax.axvline(a['peak_ms'],color='orange',ls=':');ax.set_title(f"{t}: peak +{a['peak_ms']} ms");ax.set_xlabel('Lag ms (positive = IEX leads provider)');ax.set_ylabel('Normalized HY contrast')
+fig.suptitle('Ohio arrival times · Nov 19, 14:30–14:57 UTC · Provider mid, not pool fills')
+fig.savefig(p/'hy-provider-curves.png',dpi=150)

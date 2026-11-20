@@ -1,0 +1,23 @@
+{
+  "checkpoint": "captures/startup-v9-quotes.json",
+  "output": "captures/optimistic-v3.bin",
+  "sizes": [
+    "0.02",
+    "0.1"
+  ],
+  "sync_interval_seconds": 300,
+  "sync_retry_seconds": 5,
+  "sync_timeout_seconds": 600,
+  "anchor_wait_seconds": 15,
+  "max_buffer_blocks": 60000,
+  "input_queue_size": 10000,
+  "sync_command": [
+    "python3",
+    "scripts/bootstrap_v3.py",
+    "--rpc-interval",
+    "0.7",
+    "--output",
+    "{output}"
+  ],
+  "registry_template": "config/optimistic-router-template.json"
+}

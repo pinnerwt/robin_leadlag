@@ -16,5 +16,14 @@
   "audit_interval_seconds": 60,
   "audit_max_age_seconds": 180,
   "audit_tolerance_bps": 2,
-  "audit_report": "reports/metric-pool-audit.json"
+  "audit_report": "reports/metric-pool-audit.json",
+  "v3_overlay": {
+    "enabled": true,
+    "pools": [
+      "0x52e65b17fb6e5ba00ed806f37afcd2daa50271ca",
+      "0x69bfaf19c9f377bb306a89aed9f6b07e2c1a8d9a"
+    ],
+    "registry": "config/optimistic-router-template.json",
+    "touchers": "config/v3-touchers.json"
+  }
 }

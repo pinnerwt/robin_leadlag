@@ -50,7 +50,8 @@ fn main()->Result<()> {
                 "quote"=>{
                     let mut db=state.as_ref().context("uninitialized")?.clone();
                     for update in r["pending"].as_array().context("pending updates")? {
-                        ensure!(update["kind"]=="aux_oracle","only oracle overlays allowed");
+                        // v3_price carries a calldata-predicted spot price; it only ever touches this copy.
+                        ensure!(update["kind"]=="aux_oracle" || update["kind"]=="v3_price","only oracle and V3 price overlays allowed");
                         worker::handle(&mut db,&pool,update)?;
                     }
                     let value=worker::handle(&mut db,&pool,&json!({"kind":"quote","header":r["header"],"raw_base":r["raw_base"]}))?;

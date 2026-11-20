@@ -7,10 +7,12 @@ from decimal import Decimal
 from pathlib import Path
 import websockets
 from tape import MAGIC, encode, decode
+from v3_feed_overlay import build as build_overlay, parse_swap
 
 POOL='0xb89fd35ebc48b791339520af812b70f71d823cc5'
 PYTH='0x30a88bf894d1b806125a23ebf23d715496fd7102'
 FEED='0x29e088dffd7bf6815d088137a59f364d6747163baa7ff4bc47f316a1ad1b9586'
+SWAP='0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67'
 V3_TOPICS={'0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67','0x7a53080ba414158be7ec69b987b5fb7d07dee101fe85488f0853ae16239d0bde','0x0c396cd989a39f4459b5fa1aed6a9a8dcdbc45908acfd67e028cd568da98982c','0xac49e518f90a358f652e4400164f05a5d8f7e35e7747279bc3a93dbf584e125a'}
 
 def save(path, value):
@@ -36,6 +38,8 @@ class Projection:
     def __init__(self, worker):
         self.worker=worker;self.heads={};self.metadata={};self.transactions={};self.pending={}
         self.sequence=None;self.anchor=None;self.logs=collections.deque();self.last_log=None
+        # Optional calldata-first V3 spot overlays (pool -> v3_feed_overlay.Overlay); logs remain the confirmed state.
+        self.overlays={};self.overlay_on=True;self.order=0;self.v3_sqrt={};self.v3_check_wanted=False;self.v3_check_queue=None
         self.header=None;self.last_nitro=0;self.last_head=0;self.version=0;self.counts=collections.Counter()
         self.effects=collections.deque();self.timings=collections.deque();self.wallet=None;self.executor=None;self.audit_queue=None;self.audit_interval_ns=60_000_000_000;self.next_audit_ns=0;self.audit_sizes=[str(10**15),str(58*10**15),str(10**17)];self.audit_local_error=None;self.log_blocks=set();self.unlogged_heads={};self.v3=set();self.seed_hash=None;self.anchor_seen=False;self.last_flush=0
     def initialize(self, seed):
@@ -71,6 +75,8 @@ class Projection:
                         if t.get('system_kind')!='batch_posting_report_v2':raise ValueError('unidentified Nitro transaction')
                         self.counts['batch_reports']+=1;continue
                     tx=t['tx'];self.transactions[tx]=t
+                    self.order+=1;t['order']=self.order
+                    for overlay in self.overlays.values():overlay.feed_tx(tx,t.get('to'),t.get('data'),self.order)
                     if self.executor and (t.get('to') or '').lower()==self.executor:
                         self.timings.append(dict(kind='feed_seen',tx=tx,received_ns=stamp,block_hash=h,sequence=seq))
                     if (t.get('to') or '').lower()==PYTH:
@@ -85,7 +91,14 @@ class Projection:
             cursor=tuple(int(value[k],16) for k in ('blockNumber','transactionIndex','logIndex'))
             if self.last_log is not None and cursor<=self.last_log:raise ValueError('log stream reordered or duplicated')
             self.last_log=cursor
-            if self.anchor is not None and cursor[0]>self.anchor:self.logs.append(value)
+            if self.anchor is not None and cursor[0]>self.anchor:
+                self.logs.append(value)
+                if self.overlays:
+                    # Any log proves the stream passed earlier transactions; a pool's own
+                    # Swap log is its new base. Surprises get a background pinned RPC check.
+                    t=self.transactions.get(value['transactionHash']);own=self.swap_pool(value)
+                    for pool,overlay in self.overlays.items():
+                        if overlay.log(t['order'] if t else None,value if pool==own else None,t.get('to') if t else None):self.v3_check_wanted=True
         self.drain()
         # Bound history; unknown old references cause recovery rather than guessing.
         if len(self.heads)>6000:
@@ -119,6 +132,7 @@ class Projection:
                 elif address in self.v3 and topic in V3_TOPICS:
                     log=dict(log,blockTimestamp=header['timestamp'])
                     self.worker.call(kind='confirmed',request={'kind':'v3_price','log':log})
+                    if address in self.overlays and topic==SWAP:self.v3_sqrt[address]=parse_swap(log)['sqrt']
                     self.counts['v3_updates']+=1
                 elif address==POOL:
                     pool_logs.append(log)
@@ -136,6 +150,9 @@ class Projection:
             if self.executor and any(l['address'].lower()==self.executor for l in group):
                 self.effects.append(dict(kind='receipt',receipt=dict(transactionHash=tx,blockHash=h,blockNumber=group[0]['blockNumber'],status='0x1',**{'from':self.wallet,'to':self.executor},logs=group,_source='push_logs',_observed_ns=max(l.get('arrival_ns',0) for l in group))))
             for _ in group:self.logs.popleft()
+            if self.v3_check_wanted and len(self.v3_sqrt)==len(self.overlays) and self.logs and self.logs[0]['blockNumber']!=group[0]['blockNumber'] and self.v3_check_queue is not None and self.v3_check_queue.empty():
+                # Block complete: its end-of-block pool price is what a pinned slot0 read must return.
+                self.v3_check_queue.put_nowait(dict(number=group[0]['blockNumber'],hash=h,sqrt=dict(self.v3_sqrt)));self.v3_check_wanted=not self.overlay_on
             if self.audit_queue is not None and self.logs and self.logs[0]['blockNumber']!=group[0]['blockNumber'] and time.time_ns()>=self.next_audit_ns and self.audit_queue.empty():
                 try:
                     local=self.worker.call(kind='audit',header=header,sizes=self.audit_sizes)
@@ -156,7 +173,9 @@ class Projection:
         if not self.anchor_seen:raise ValueError('checkpoint not joined to pushed heads')
         if now-min(self.last_head,self.last_nitro)>2_000_000_000:raise ValueError('stale pushed stream')
         # Do not quote past any unprocessed relevant log or unknown metadata.
-        if any(l['address'].lower() in self.v3|{POOL,PYTH} for l in self.logs):return None
+        overlays=self.overlays if self.overlay_on else {}
+        # An overlay's base already includes its pool's own unprocessed Swap logs.
+        if any(l['address'].lower() in self.v3|{POOL,PYTH} and not (overlays and self.swap_pool(l)) for l in self.logs):return None
         pending=[]
         for req,h,stamp in self.pending.values():
             if h not in self.heads or int(self.heads[h]['number'],16)>self.anchor:pending.append(req)
@@ -165,8 +184,45 @@ class Projection:
             h=list(self.metadata.values())[-1]
             latest={k:hex(max(int(latest[k],16),int(h[k],16))) for k in latest}
         latest['timestamp']=hex(max(int(latest['timestamp'],16),(now+20_000_000)//10**9))
+        oracles=len(pending);speculative=False;uncertain=False
+        for pool,overlay in overlays.items():
+            sqrt,unknown,_=overlay.view();uncertain=uncertain or unknown
+            if sqrt is not None and sqrt!=self.v3_sqrt.get(pool):
+                pending.append({'kind':'v3_price','log':overlay.pseudo_log(latest['timestamp'])});speculative=True
         result=self.worker.call(kind='quote',raw_base=str(raw),header=latest,pending=pending)
-        return dict(result['quote'],state_version=self.version,pending_oracles=len(pending),header=latest)
+        self.counts['quotes_v3_speculative']+=speculative
+        return dict(result['quote'],state_version=self.version,pending_oracles=oracles,v3_speculative=speculative,v3_uncertain=uncertain,header=latest)
+    def swap_pool(self,log):
+        address=log['address'].lower()
+        return address if address in self.overlays and log['topics'] and log['topics'][0]==SWAP else None
+    def overlay_status(self):
+        return dict(enabled=self.overlay_on,pools={pool:dict(queued=len(o.txs),uncertain=o.view()[1],counts=dict(o.counts),recent_mismatches=list(o.mismatches)[-5:]) for pool,o in self.overlays.items()}) if self.overlays else None
+
+async def v3_checks(queue,projection,rpc_url,state):
+    """Background pinned slot0 read after an overlay surprise. Never on the quote path.
+    A difference from the log-derived price turns the overlay off until a later check agrees."""
+    from metric_account_observer import HttpRpc
+    rpc=HttpRpc(rpc_url)
+    while True:
+        request=await queue.get()
+        try:
+            await asyncio.sleep(1)                      # public RPC trails the feed by 0.5-0.9 s; also bounds the rate
+            header=None
+            for _ in range(20):
+                header=await rpc.call('eth_getBlockByNumber',[request['number'],False])
+                if header is not None:break
+                await asyncio.sleep(.25)
+            if header is None or header['hash']!=request['hash']:raise RuntimeError('check block unavailable')
+            same=True
+            for pool,sqrt in request['sqrt'].items():
+                raw=await rpc.call('eth_call',[{'to':pool,'data':'0x3850c7bd'},request['number']])
+                same=same and int(raw[2:66],16)==sqrt
+            state['checks']=state.get('checks',0)+1;state['differences']=state.get('differences',0)+(not same)
+            state['last']=dict(block=request['number'],same=same,checked_ns=time.time_ns())
+            projection.overlay_on=same
+            if not same:projection.v3_check_wanted=True
+        except Exception as exc:
+            state['errors']=state.get('errors',0)+1;state['last_error']=str(exc)[:200]
 
 async def stream(kind,url,queue,timeout_seconds=10):
     async with websockets.connect(url,max_size=32*1024*1024,ping_interval=10,ping_timeout=10) as ws:
@@ -225,6 +281,14 @@ async def run(c):
         projection.next_audit_ns=time.time_ns()+5_000_000_000
         health['last_audit_ns']=time.time_ns()
         tasks.append(asyncio.create_task(run_audits(audit_queue,seed['pools'][0]['provider'],health,c)))
+        v3_rpc={}
+        if c.get('v3_overlay',{}).get('enabled'):
+            o=c['v3_overlay']
+            for pool in o['pools']:
+                if pool.lower() not in projection.v3:raise ValueError('V3 overlay pool is not a price dependency')
+                projection.overlays[pool.lower()]=build_overlay(pool,o['registry'],o['touchers'])
+            projection.v3_check_queue=asyncio.Queue(maxsize=1)
+            tasks.append(asyncio.create_task(v3_checks(projection.v3_check_queue,projection,o.get('rpc') or c['bootstrap_rpc'],v3_rpc)))
         trader_config=json.loads(Path(c['trader_config']).read_text()) if c.get('trader_config') else None
         if trader_config and trader_config.get('executor'):
             from metric_account_observer import observe
@@ -284,7 +348,7 @@ async def run(c):
                     last_error=str(exc);last_price=None
                 last_quote=now
             if now-last_status>=1_000_000_000:
-                stats.update(phase='connected' if send else 'shadow',ready=bool(health['account_ready'] and last_price),account=health,updated_ns=now,counts=dict(projection.counts),quotes=quotes,last_quote=last_price,last_quote_error=last_error,buffered=q.qsize(),pending_logs=len(projection.logs),anchor_seen=projection.anchor_seen,hot_path_rpc_requests=0,audit_local_error=projection.audit_local_error)
+                stats.update(phase='connected' if send else 'shadow',ready=bool(health['account_ready'] and last_price),account=health,updated_ns=now,counts=dict(projection.counts),quotes=quotes,last_quote=last_price,last_quote_error=last_error,buffered=q.qsize(),pending_logs=len(projection.logs),anchor_seen=projection.anchor_seen,hot_path_rpc_requests=0,audit_local_error=projection.audit_local_error,v3_overlay=projection.overlay_status(),v3_rpc_checks=v3_rpc)
                 save(c['status'],stats);last_status=now
     except Exception as exc:
         stats.update(phase='invalid',ready=False,error=str(exc),updated_ns=time.time_ns());save(c['status'],stats)

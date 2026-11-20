@@ -7,6 +7,7 @@ ROUTER_C33='0xc33acc93942105c57602e59e8e448c20ba718a85'
 ROUTER_29='0x29d8d0a5c38716ebb4ae1786a46cf0ab74d480db'
 ROUTER_7DEC='0x7dec8663bc55f3419a130fac7a7209b959ed8d90'
 ROUTER_769='0x7693900963049c5401d12af0265f619729a4e94a'
+ROUTER_667='0x6674669db788286f433136e67a181295ba05e629' # same 24,494-byte router, different immutables
 ROUTER_9E='0x9e9ead6e46268a45c7559c8dfa5a778bad6ad331'
 ROUTER_278='0x278d858f05b94576c1e6f73285886876ff6ef8d2'
 ROUTER_520='0x520ed467860d840ec6ca20f1dacb9c0fa5168aa7'
@@ -48,7 +49,7 @@ def decode_packed(to,calldata,registry,tracked_pools=None):
  if to=='0x4262efbd176f02824af27010bea218429c33c7e8':
   from nested_routers import decode_426
   return decode_426(raw,profile,tracked_pools)
- if to==ROUTER_769 and raw[:4].hex()=='b7bee4b6':
+ if to in (ROUTER_769,ROUTER_667) and raw[:4].hex()=='b7bee4b6':
   if profile.get('profile')!='769-single-v3-v1' or not profile.get('code_hash'):raise ValueError('unversioned custom profile')
   from v3_calldata import word,blob,address
   d=raw[4:]
